@@ -70,7 +70,7 @@ var featureOverlay = new ol.layer.Vector({
 });
 
 var doHighlight = false;
-var doHover = true;
+var doHover = false;
 
 var highlight;
 var onPointerMove = function(evt) {

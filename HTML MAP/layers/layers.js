@@ -21,6 +21,7 @@ new ol.layer.Tile({
         attributions: [new ol.Attribution({html: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>,&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'})]
     })
 }),
+
 new ol.layer.Tile({
     'title': 'Stamen Terrain',
     'type': 'base',
