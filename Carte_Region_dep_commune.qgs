@@ -5,13 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Comm_assos20161125152705893" name="Comm_assos">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Regions_assos20161125152327651" name="Regions">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dep_assos20161125152504933" name="Département">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Regions_assos20161125152327651" name="Regions">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Comm_assos20161125152705893" name="Communes et Arrondissements">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>2.22172308904614546</xmin>
-      <ymin>47.50571153028383975</ymin>
-      <xmax>6.08115614239928171</xmax>
-      <ymax>50.06682275728369547</ymax>
+      <xmin>-0.02120582294119355</xmin>
+      <ymin>47.63253197041501608</ymin>
+      <xmax>3.68069665669989821</xmax>
+      <ymax>50.14604323315541023</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -49,9 +49,9 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Comm_assos" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Regions" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Comm_assos20161125152705893" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Regions_assos20161125152327651" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Département" showFeatureCount="0">
@@ -59,20 +59,26 @@
         <legendlayerfile isInOverview="0" layerid="Dep_assos20161125152504933" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Regions" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Communes et Arrondissements" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Regions_assos20161125152327651" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Comm_assos20161125152705893" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.6448318826773054</xmin>
+        <ymin>41.48324307236495656</ymin>
+        <xmax>9.45765375405055231</xmax>
+        <ymax>51.05852407328192299</ymax>
+      </extent>
       <id>Comm_assos20161125152705893</id>
       <datasource>./ressources QGIS/Heatmap/Comm_assos.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Comm_assos</layername>
+      <layername>Communes et Arrondissements</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -86,7 +92,7 @@
         </spatialrefsys>
       </srs>
       <provider encoding="UTF-8">ogr</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "NOM", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
@@ -105,7 +111,7 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 attr=" to_real(  &quot;SCORE&quot; )" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+      <renderer-v2 attr=" to_real( &quot;SCORE&quot; )" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
         <ranges>
           <range render="true" symbol="0" lower="0.000000000000000" upper="0.500000000000000" label=" 0.00 - 0.50 "/>
           <range render="true" symbol="1" lower="0.500000000000000" upper="1.000000000000000" label=" 0.50 - 1.00 "/>
@@ -117,7 +123,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="247,251,255,255"/>
+              <prop k="color" v="255,255,212,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -132,7 +138,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="200,221,240,255"/>
+              <prop k="color" v="254,217,142,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -147,7 +153,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="115,179,216,255"/>
+              <prop k="color" v="254,153,41,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -162,7 +168,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="40,121,185,255"/>
+              <prop k="color" v="217,95,14,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -177,7 +183,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="8,48,107,255"/>
+              <prop k="color" v="153,52,4,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -208,10 +214,10 @@
           </symbol>
         </source-symbol>
         <colorramp type="gradient" name="[source]">
-          <prop k="color1" v="247,251,255,255"/>
-          <prop k="color2" v="8,48,107,255"/>
+          <prop k="color1" v="255,255,212,255"/>
+          <prop k="color2" v="153,52,4,255"/>
           <prop k="discrete" v="0"/>
-          <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+          <prop k="stops" v="0.25;254,217,142,255:0.5;254,153,41,255:0.75;217,95,14,255"/>
         </colorramp>
         <invertedcolorramp value="0"/>
         <mode name="quantile"/>
@@ -360,6 +366,8 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/popup/NOM" value="no label"/>
+        <property key="qgis2web/popup/SCORE" value="no label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -467,7 +475,7 @@ def my_form_open(dialog, layer, feature):
         </modelRendering>
       </globe>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="250000" maximumScale="2e+06" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Dep_assos20161125152504933</id>
       <datasource>./ressources QGIS/Heatmap/Dep_assos.shp</datasource>
       <keywordList>
@@ -781,6 +789,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/popup/CODE_INSEE" value="no label"/>
+        <property key="qgis2web/popup/NOM" value="no label"/>
+        <property key="qgis2web/popup/SCORE" value="no label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -890,7 +901,7 @@ def my_form_open(dialog, layer, feature):
         </modelRendering>
       </globe>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="2e+06" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-5.14223839797323912</xmin>
         <ymin>41.3332277729552402</ymin>
@@ -1194,6 +1205,9 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/popup/CODE_INSEE" value="no label"/>
+        <property key="qgis2web/popup/NOM" value="no label"/>
+        <property key="qgis2web/popup/SCORE" value="no label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -1328,10 +1342,56 @@ def my_form_open(dialog, layer, feature):
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>Regions_assos20161125152327651</value>
+        <value>Dep_assos20161125152504933</value>
+        <value>Comm_assos20161125152705893</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
     </Digitizing>
+    <qgis2web>
+      <Maxzoomlevel type="int">27</Maxzoomlevel>
+      <Showpopupsonhover type="int">0</Showpopupsonhover>
+      <Basemaps type="QString"></Basemaps>
+      <Exportfolder type="QString">C:\Users\capa-4\Desktop\batch2_newbed\NEW HTML MAP</Exportfolder>
+      <Precision type="int">0</Precision>
+      <Measuretool type="int">0</Measuretool>
+      <Addlayerslist type="int">1</Addlayerslist>
+      <Highlightonhover type="int">0</Highlightonhover>
+      <MatchprojectCRS type="int">0</MatchprojectCRS>
+      <Addaddresssearch type="int">1</Addaddresssearch>
+      <Minzoomlevel type="int">0</Minzoomlevel>
+      <Geolocateuser type="int">0</Geolocateuser>
+      <MinifyGeoJSONfiles type="int">0</MinifyGeoJSONfiles>
+      <Extent type="int">0</Extent>
+      <Restricttoextent type="int">0</Restricttoextent>
+      <Template type="int">0</Template>
+      <Mappinglibrarylocation type="int">0</Mappinglibrarylocation>
+      <Layersearch type="int">7</Layersearch>
+    </qgis2web>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>

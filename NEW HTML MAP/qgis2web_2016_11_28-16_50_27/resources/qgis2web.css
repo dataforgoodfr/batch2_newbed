@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+th, td {
+    vertical-align: top;
+    text-align: left;
+}
+
+#map {
+    width: 65%;
+    height: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ol-popup {
+    display: none;
+    position: fixed;
+    background-color: white;
+    padding: 15px;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    left: -250px;
+    top:0px;   
+    height:717px;
+    width: 218px;
+    min-width: 150px;     
+}
+
+.ol-popup-closer {
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+    right: 8px;
+}
+
+
+.ol-attribution a {
+    text-decoration: none;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 100%;
+}

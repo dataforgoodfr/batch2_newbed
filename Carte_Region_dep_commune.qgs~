@@ -5,31 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="SINGA_Assos20161125114228492" name="SINGA_Assos">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Comm_assos20161125152705893" name="Comm_assos">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Infras_par_departement20161124131440393" name="Infras_par_departement">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dep_assos20161125152504933" name="Département">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="regions_20140306_100m20161124134041676" name="regions-20140306-100m">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="regions_20140306_100m_copier20161124143820008" name="regions-20140306-100m copier">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="departements_20140306_50m20161124131507081" name="departements-20140306-50m">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="departements_20140306_50m_copier20161124143916191" name="departements-20140306-50m copier">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="scores_regions20161124152818908" name="scores_regions">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="ZONES_COUVERTES_INSEE20161124144122606" name="ZONES_COUVERTES_INSEE">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Infras_regions20161124143012705" name="Infras_regions">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Regions_assos20161125152327651" name="Regions">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -37,10 +19,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-5.15259359581654053</xmin>
-      <ymin>42.64854014394266812</ymin>
-      <xmax>10.28849795855563798</xmax>
-      <ymax>52.16148406247383207</ymax>
+      <xmin>2.22172308904614546</xmin>
+      <ymin>47.50571153028383975</ymin>
+      <xmax>6.08115614239928171</xmax>
+      <ymax>50.06682275728369547</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -61,72 +43,36 @@
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>Infras_par_departement20161124131440393</item>
-      <item>departements_20140306_50m20161124131507081</item>
-      <item>regions_20140306_100m20161124134041676</item>
-      <item>Infras_regions20161124143012705</item>
-      <item>regions_20140306_100m_copier20161124143820008</item>
-      <item>departements_20140306_50m_copier20161124143916191</item>
-      <item>ZONES_COUVERTES_INSEE20161124144122606</item>
-      <item>scores_regions20161124152818908</item>
-      <item>SINGA_Assos20161125114228492</item>
+      <item>Regions_assos20161125152327651</item>
+      <item>Dep_assos20161125152504933</item>
+      <item>Comm_assos20161125152705893</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="SINGA_Assos" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Comm_assos" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="SINGA_Assos20161125114228492" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Comm_assos20161125152705893" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Infras_par_departement" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Département" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Infras_par_departement20161124131440393" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Dep_assos20161125152504933" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="regions-20140306-100m" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Regions" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="regions_20140306_100m20161124134041676" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="regions-20140306-100m copier" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="regions_20140306_100m_copier20161124143820008" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="departements-20140306-50m" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="departements_20140306_50m20161124131507081" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="departements-20140306-50m copier" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="departements_20140306_50m_copier20161124143916191" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="scores_regions" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="scores_regions20161124152818908" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ZONES_COUVERTES_INSEE" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="ZONES_COUVERTES_INSEE20161124144122606" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Infras_regions" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Infras_regions20161124143012705" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Regions_assos20161125152327651" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>Infras_par_departement20161124131440393</id>
-      <datasource>../DATA_SCIENCE/batch2_newbed/Test iris PDC/Infras_par_departement.csv</datasource>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Comm_assos20161125152705893</id>
+      <datasource>./ressources QGIS/Heatmap/Comm_assos.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Infras_par_departement</layername>
+      <layername>Comm_assos</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -139,406 +85,14 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <customproperties/>
       <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
       <defaults>
-        <default field="Departement" expression=""/>
-        <default field="ENF_HEBER,C,2" expression=""/>
-        <default field="ACT_EDUC,C,1" expression=""/>
-        <default field="CHRS,C,2" expression=""/>
-        <default field="ACC_ASILE,C,1" expression=""/>
-        <default field="AUTRES_SOC,C,2" expression=""/>
-        <default field="TRAV_PROT,C,2" expression=""/>
-        <default field="HEB_PROV,C,1" expression=""/>
-        <default field="ETA_PSY,C,2" expression=""/>
-        <default field="URGENCES,C,1" expression=""/>
-        <default field="MATERNITE,C,1" expression=""/>
-      </defaults>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="Departement">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ENF_HEBER,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACT_EDUC,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="CHRS,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACC_ASILE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AUTRES_SOC,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="TRAV_PROT,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="HEB_PROV,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ETA_PSY,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="URGENCES,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="MATERNITE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform>.</annotationform>
-      <aliases>
-        <alias field="Departement" index="0" name=""/>
-        <alias field="ENF_HEBER,C,2" index="1" name=""/>
-        <alias field="ACT_EDUC,C,1" index="2" name=""/>
-        <alias field="CHRS,C,2" index="3" name=""/>
-        <alias field="ACC_ASILE,C,1" index="4" name=""/>
-        <alias field="AUTRES_SOC,C,2" index="5" name=""/>
-        <alias field="TRAV_PROT,C,2" index="6" name=""/>
-        <alias field="HEB_PROV,C,1" index="7" name=""/>
-        <alias field="ETA_PSY,C,2" index="8" name=""/>
-        <alias field="URGENCES,C,1" index="9" name=""/>
-        <alias field="MATERNITE,C,1" index="10" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="621284792">
-        <columns/>
-      </attributetableconfig>
-      <editform>.</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <globe>
-        <renderingMode mode="0"/>
-        <modelRendering lighting="1">
-          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
-          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
-          <labeling declutter="0" enabled="0" field=""/>
-        </modelRendering>
-      </globe>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>Infras_regions20161124143012705</id>
-      <datasource>../DATA_SCIENCE/batch2_newbed/Test iris PDC/Infras_regions.csv</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Infras_regions</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">ogr</provider>
-      <previewExpression>COALESCE("region", '&lt;NULL>')||', '||COALESCE("ENF_HEBER,C,2", '&lt;NULL>')||', '||COALESCE("ACT_EDUC,C,1", '&lt;NULL>')||', '||COALESCE("CHRS,C,2", '&lt;NULL>')||', '||COALESCE("ACC_ASILE,C,1", '&lt;NULL>')||', '||COALESCE("AUTRES_SOC,C,2", '&lt;NULL>')||', '||COALESCE("TRAV_PROT,C,2", '&lt;NULL>')||', '||COALESCE("HEB_PROV,C,1", '&lt;NULL>')||', '||COALESCE("ETA_PSY,C,2", '&lt;NULL>')||', '||COALESCE("URGENCES,C,1", '&lt;NULL>')||', '||COALESCE("MATERNITE,C,1", '&lt;NULL>')</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <defaults>
-        <default field="region" expression=""/>
-        <default field="ENF_HEBER,C,2" expression=""/>
-        <default field="ACT_EDUC,C,1" expression=""/>
-        <default field="CHRS,C,2" expression=""/>
-        <default field="ACC_ASILE,C,1" expression=""/>
-        <default field="AUTRES_SOC,C,2" expression=""/>
-        <default field="TRAV_PROT,C,2" expression=""/>
-        <default field="HEB_PROV,C,1" expression=""/>
-        <default field="ETA_PSY,C,2" expression=""/>
-        <default field="URGENCES,C,1" expression=""/>
-        <default field="MATERNITE,C,1" expression=""/>
-      </defaults>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="region">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ENF_HEBER,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACT_EDUC,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="CHRS,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACC_ASILE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AUTRES_SOC,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="TRAV_PROT,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="HEB_PROV,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ETA_PSY,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="URGENCES,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="MATERNITE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform>.</annotationform>
-      <aliases>
-        <alias field="region" index="0" name=""/>
-        <alias field="ENF_HEBER,C,2" index="1" name=""/>
-        <alias field="ACT_EDUC,C,1" index="2" name=""/>
-        <alias field="CHRS,C,2" index="3" name=""/>
-        <alias field="ACC_ASILE,C,1" index="4" name=""/>
-        <alias field="AUTRES_SOC,C,2" index="5" name=""/>
-        <alias field="TRAV_PROT,C,2" index="6" name=""/>
-        <alias field="HEB_PROV,C,1" index="7" name=""/>
-        <alias field="ETA_PSY,C,2" index="8" name=""/>
-        <alias field="URGENCES,C,1" index="9" name=""/>
-        <alias field="MATERNITE,C,1" index="10" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="477841664">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="region"/>
-          <column width="-1" hidden="0" type="field" name="ENF_HEBER,C,2"/>
-          <column width="-1" hidden="0" type="field" name="ACT_EDUC,C,1"/>
-          <column width="-1" hidden="0" type="field" name="CHRS,C,2"/>
-          <column width="-1" hidden="0" type="field" name="ACC_ASILE,C,1"/>
-          <column width="-1" hidden="0" type="field" name="AUTRES_SOC,C,2"/>
-          <column width="-1" hidden="0" type="field" name="TRAV_PROT,C,2"/>
-          <column width="-1" hidden="0" type="field" name="HEB_PROV,C,1"/>
-          <column width="-1" hidden="0" type="field" name="ETA_PSY,C,2"/>
-          <column width="-1" hidden="0" type="field" name="URGENCES,C,1"/>
-          <column width="-1" hidden="0" type="field" name="MATERNITE,C,1"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <editform>.</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <globe>
-        <renderingMode mode="0"/>
-        <modelRendering lighting="1">
-          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
-          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
-          <labeling declutter="0" enabled="0" field=""/>
-        </modelRendering>
-      </globe>
-    </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>SINGA_Assos20161125114228492</id>
-      <datasource>file:./SINGA_Assos.csv?type=csv&amp;delimiter=,%5Ct;&amp;xField=longitude&amp;yField=latitude&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>SINGA_Assos</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="UTF-8">delimitedtext</provider>
-      <previewExpression>COALESCE( "latitude", '&lt;NULL>' )</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <defaults>
-        <default field="latitude" expression=""/>
-        <default field="longitude" expression=""/>
-        <default field="Type" expression=""/>
-      </defaults>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="latitude">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="longitude">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Type">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
-            <layer pass="0" class="SimpleMarker" locked="0">
-              <prop k="angle" v="0"/>
-              <prop k="color" v="106,109,165,255"/>
-              <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="circle"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="diameter"/>
-              <prop k="size" v="2"/>
-              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="size_unit" v="MM"/>
-              <prop k="vertical_anchor_point" v="1"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>latitude</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Étiquette"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <annotationform></annotationform>
-      <aliases>
-        <alias field="latitude" index="0" name=""/>
-        <alias field="longitude" index="1" name=""/>
-        <alias field="Type" index="2" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="799774776">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="latitude"/>
-          <column width="-1" hidden="0" type="field" name="longitude"/>
-          <column width="-1" hidden="0" type="field" name="Type"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <editform></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <globe>
-        <renderingMode mode="0"/>
-        <modelRendering lighting="1">
-          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
-          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
-          <labeling declutter="0" enabled="0" field=""/>
-        </modelRendering>
-      </globe>
-    </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>ZONES_COUVERTES_INSEE20161124144122606</id>
-      <datasource>./ressources QGIS/ZONES_COUVERTES_INSEE.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>ZONES_COUVERTES_INSEE</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="ISO-8859-3">ogr</provider>
-      <previewExpression>COALESCE( "NOM", '&lt;NULL>' )</previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <defaults>
         <default field="NOM" expression=""/>
-        <default field="ENF_HEBER" expression=""/>
-        <default field="ACT_EDUC" expression=""/>
-        <default field="CHRS" expression=""/>
-        <default field="ACC_ASILE" expression=""/>
-        <default field="AUTRES_SOC" expression=""/>
-        <default field="TRAV_PROT" expression=""/>
-        <default field="HEB_PROV" expression=""/>
-        <default field="ETA_PSY" expression=""/>
-        <default field="URGENCES" expression=""/>
-        <default field="MATERNITE" expression=""/>
+        <default field="SCORE" expression=""/>
       </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -547,39 +101,96 @@
         <edittype widgetv2type="TextEdit" name="NOM">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="ENF_HEBER">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACT_EDUC">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="CHRS">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACC_ASILE">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AUTRES_SOC">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="TRAV_PROT">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="HEB_PROV">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ETA_PSY">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="URGENCES">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="MATERNITE">
+        <edittype widgetv2type="TextEdit" name="SCORE">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 attr=" to_real(  &quot;SCORE&quot; )" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.000000000000000" upper="0.500000000000000" label=" 0.00 - 0.50 "/>
+          <range render="true" symbol="1" lower="0.500000000000000" upper="1.000000000000000" label=" 0.50 - 1.00 "/>
+          <range render="true" symbol="2" lower="1.000000000000000" upper="3.000000000000000" label=" 1.00 - 3.00 "/>
+          <range render="true" symbol="3" lower="3.000000000000000" upper="5.000000000000000" label=" 3.00 - 5.00 "/>
+          <range render="true" symbol="4" lower="5.000000000000000" upper="15.000000000000000" label=" 5.00 - 15.00 "/>
+        </ranges>
         <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="247,251,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="149,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="200,221,240,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="149,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="115,179,216,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="149,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="40,121,185,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="149,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="8,48,107,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="149,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -588,16 +199,25 @@
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_color" v="149,0,0,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
           </symbol>
-        </symbols>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="247,251,255,255"/>
+          <prop k="color2" v="8,48,107,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="quantile"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="2"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -740,17 +360,6 @@
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/popup/ACC_ASILE" value="no label"/>
-        <property key="qgis2web/popup/ACT_EDUC" value="no label"/>
-        <property key="qgis2web/popup/AUTRES_SOC" value="no label"/>
-        <property key="qgis2web/popup/CHRS" value="no label"/>
-        <property key="qgis2web/popup/ENF_HEBER" value="no label"/>
-        <property key="qgis2web/popup/ETA_PSY" value="no label"/>
-        <property key="qgis2web/popup/HEB_PROV" value="no label"/>
-        <property key="qgis2web/popup/MATERNITE" value="no label"/>
-        <property key="qgis2web/popup/NOM" value="no label"/>
-        <property key="qgis2web/popup/TRAV_PROT" value="no label"/>
-        <property key="qgis2web/popup/URGENCES" value="no label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -782,7 +391,6 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -808,613 +416,25 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
         <alias field="NOM" index="0" name=""/>
-        <alias field="ENF_HEBER" index="1" name=""/>
-        <alias field="ACT_EDUC" index="2" name=""/>
-        <alias field="CHRS" index="3" name=""/>
-        <alias field="ACC_ASILE" index="4" name=""/>
-        <alias field="AUTRES_SOC" index="5" name=""/>
-        <alias field="TRAV_PROT" index="6" name=""/>
-        <alias field="HEB_PROV" index="7" name=""/>
-        <alias field="ETA_PSY" index="8" name=""/>
-        <alias field="URGENCES" index="9" name=""/>
-        <alias field="MATERNITE" index="10" name=""/>
+        <alias field="SCORE" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="728163448">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="143358928">
         <columns>
           <column width="-1" hidden="0" type="field" name="NOM"/>
-          <column width="-1" hidden="0" type="field" name="ENF_HEBER"/>
-          <column width="-1" hidden="0" type="field" name="ACT_EDUC"/>
-          <column width="-1" hidden="0" type="field" name="CHRS"/>
-          <column width="-1" hidden="0" type="field" name="ACC_ASILE"/>
-          <column width="-1" hidden="0" type="field" name="AUTRES_SOC"/>
-          <column width="-1" hidden="0" type="field" name="TRAV_PROT"/>
-          <column width="-1" hidden="0" type="field" name="HEB_PROV"/>
-          <column width="-1" hidden="0" type="field" name="ETA_PSY"/>
-          <column width="-1" hidden="0" type="field" name="URGENCES"/>
-          <column width="-1" hidden="0" type="field" name="MATERNITE"/>
+          <column width="-1" hidden="0" type="field" name="SCORE"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
-
-Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
-
-Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
-Voici un exemple à suivre:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-    geom = feature.geometry()
-    control = dialog.findChild(QWidget, "MyLineEdit")
-
-]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <globe>
-        <renderingMode mode="0"/>
-        <modelRendering lighting="1">
-          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
-          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
-          <labeling declutter="0" enabled="0" field=""/>
-        </modelRendering>
-      </globe>
-    </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>departements_20140306_50m20161124131507081</id>
-      <datasource>../newbed_SIG/departements-20140306-50m.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>departements-20140306-50m</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="ISO-8859-3">ogr</provider>
-      <previewExpression>COALESCE( "code_insee", '&lt;NULL>' )</previewExpression>
-      <vectorjoins>
-        <join joinFieldName="Departement" targetFieldName="code_insee" memoryCache="1" joinLayerId="Infras_par_departement20161124131440393"/>
-      </vectorjoins>
-      <layerDependencies/>
-      <expressionfields/>
-      <defaults>
-        <default field="code_insee" expression=""/>
-        <default field="nom" expression=""/>
-        <default field="nuts3" expression=""/>
-        <default field="wikipedia" expression=""/>
-        <default field="Infras_par_departement_ENF_HEBER,C,2" expression=""/>
-        <default field="Infras_par_departement_ACT_EDUC,C,1" expression=""/>
-        <default field="Infras_par_departement_CHRS,C,2" expression=""/>
-        <default field="Infras_par_departement_ACC_ASILE,C,1" expression=""/>
-        <default field="Infras_par_departement_AUTRES_SOC,C,2" expression=""/>
-        <default field="Infras_par_departement_TRAV_PROT,C,2" expression=""/>
-        <default field="Infras_par_departement_HEB_PROV,C,1" expression=""/>
-        <default field="Infras_par_departement_ETA_PSY,C,2" expression=""/>
-        <default field="Infras_par_departement_URGENCES,C,1" expression=""/>
-        <default field="Infras_par_departement_MATERNITE,C,1" expression=""/>
-      </defaults>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code_insee">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nom">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nuts3">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ENF_HEBER,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ACT_EDUC,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_CHRS,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ACC_ASILE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_AUTRES_SOC,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_TRAV_PROT,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_HEB_PROV,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ETA_PSY,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_URGENCES,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_MATERNITE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 attr="(to_int( &quot;Infras_par_departement_ENF_HEBER,C,2&quot;)*3+to_int(  &quot;Infras_par_departement_ACT_EDUC,C,1&quot; )*3+to_int(  &quot;Infras_par_departement_ACC_ASILE,C,1&quot; )*4+to_int(  &quot;Infras_par_departement_CHRS,C,2&quot; )*4+to_int(  &quot;Infras_par_departement_AUTRES_SOC,C,2&quot; )+to_int(  &quot;Infras_par_departement_TRAV_PROT,C,2&quot; )*3+to_int(  &quot;Infras_par_departement_HEB_PROV,C,1&quot; )+to_int(  &quot;Infras_par_departement_ETA_PSY,C,2&quot; )*2+to_int(  &quot;Infras_par_departement_URGENCES,C,1&quot; )*2+to_int(  &quot;Infras_par_departement_MATERNITE,C,1&quot; )*2)/( mean( (to_int( &quot;Infras_par_departement_ENF_HEBER,C,2&quot;)*3)+mean(to_int(  &quot;Infras_par_departement_ACT_EDUC,C,1&quot; )*3)+mean(to_int(  &quot;Infras_par_departement_ACC_ASILE,C,1&quot; )*4)+mean(to_int(  &quot;Infras_par_departement_CHRS,C,2&quot; )*4)+mean(to_int(  &quot;Infras_par_departement_AUTRES_SOC,C,2&quot; ))+mean(to_int(  &quot;Infras_par_departement_TRAV_PROT,C,2&quot; )*3)+mean(to_int(  &quot;Infras_par_departement_HEB_PROV,C,1&quot; ))+mean(to_int(  &quot;Infras_par_departement_ETA_PSY,C,2&quot; )*2)+mean(to_int(  &quot;Infras_par_departement_URGENCES,C,1&quot; )*2)+ mean(to_int(  &quot;Infras_par_departement_MATERNITE,C,1&quot; )*2)))" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
-        <ranges>
-          <range render="true" symbol="0" lower="0.109166419460101" upper="0.230198754078908" label=" 0.109-0.23"/>
-          <range render="true" symbol="1" lower="0.230198754078908" upper="0.360723820824681" label=" 0.23-0.361"/>
-          <range render="true" symbol="2" lower="0.360723820824681" upper="0.427172945713438" label=" 0.361-0.427"/>
-          <range render="true" symbol="3" lower="0.427172945713438" upper="0.531592999110056" label=" 0.427-0.532"/>
-          <range render="true" symbol="4" lower="0.531592999110056" upper="0.728567190744586" label=" 0.532-0.729"/>
-          <range render="true" symbol="5" lower="0.728567190744586" upper="0.873331355680807" label=" 0.729-0.873"/>
-          <range render="true" symbol="6" lower="0.873331355680807" upper="1.172352417680214" label=" 0.873-1.172"/>
-          <range render="true" symbol="7" lower="1.172352417680214" upper="1.499851676060516" label=" 1.172-1.5"/>
-          <range render="true" symbol="8" lower="1.499851676060516" upper="1.955502818154850" label=" 1.5-1.956"/>
-          <range render="true" symbol="9" lower="1.955502818154850" upper="5.387125482052803" label=" 1.956-5.387"/>
-        </ranges>
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="240,249,232,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="216,240,213,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="192,231,193,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="165,220,191,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="137,210,194,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="110,195,198,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="86,176,200,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="60,156,199,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="34,130,186,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="8,104,172,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <source-symbol>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="211,57,26,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </source-symbol>
-        <colorramp type="gradient" name="[source]">
-          <prop k="color1" v="240,249,232,255"/>
-          <prop k="color2" v="8,104,172,255"/>
-          <prop k="discrete" v="0"/>
-          <prop k="stops" v="0.25;186,228,188,255:0.5;123,204,196,255:0.75;67,162,202,255"/>
-        </colorramp>
-        <invertedcolorramp value="0"/>
-        <mode name="quantile"/>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-        <labelformat format=" %1-%2" trimtrailingzeroes="true" decimalplaces="3"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="128"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fitInPolygonOnly" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="8.25"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="4294967295"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Normal"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="1"/>
-        <property key="labeling/obstacleType" value="0"/>
-        <property key="labeling/offsetType" value="0"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="1"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/useSubstitutions" value="false"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-        <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/popup/Infras_par_departement_ACC_ASILE,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_ACT_EDUC,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_AUTRES_SOC,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_CHRS,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_ENF_HEBER,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_ETA_PSY,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_HEB_PROV,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_MATERNITE,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_TRAV_PROT,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_URGENCES,C,1" value="no label"/>
-        <property key="qgis2web/popup/code_insee" value="no label"/>
-        <property key="qgis2web/popup/nom" value="no label"/>
-        <property key="qgis2web/popup/nuts3" value="no label"/>
-        <property key="qgis2web/popup/wikipedia" value="no label"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>code_insee</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Étiquette"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
-          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
-        </DiagramCategory>
-        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
-          <layer pass="0" class="SimpleMarker" locked="0">
-            <prop k="angle" v="0"/>
-            <prop k="color" v="255,0,0,255"/>
-            <prop k="horizontal_anchor_point" v="1"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="name" v="circle"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0"/>
-            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="scale_method" v="diameter"/>
-            <prop k="size" v="2"/>
-            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="size_unit" v="MM"/>
-            <prop k="vertical_anchor_point" v="1"/>
-          </layer>
-        </symbol>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
-      <aliases>
-        <alias field="code_insee" index="0" name=""/>
-        <alias field="nom" index="1" name=""/>
-        <alias field="nuts3" index="2" name=""/>
-        <alias field="wikipedia" index="3" name=""/>
-        <alias field="Infras_par_departement_ENF_HEBER,C,2" index="4" name=""/>
-        <alias field="Infras_par_departement_ACT_EDUC,C,1" index="5" name=""/>
-        <alias field="Infras_par_departement_CHRS,C,2" index="6" name=""/>
-        <alias field="Infras_par_departement_ACC_ASILE,C,1" index="7" name=""/>
-        <alias field="Infras_par_departement_AUTRES_SOC,C,2" index="8" name=""/>
-        <alias field="Infras_par_departement_TRAV_PROT,C,2" index="9" name=""/>
-        <alias field="Infras_par_departement_HEB_PROV,C,1" index="10" name=""/>
-        <alias field="Infras_par_departement_ETA_PSY,C,2" index="11" name=""/>
-        <alias field="Infras_par_departement_URGENCES,C,1" index="12" name=""/>
-        <alias field="Infras_par_departement_MATERNITE,C,1" index="13" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="118978624">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="code_insee"/>
-          <column width="-1" hidden="0" type="field" name="nom"/>
-          <column width="-1" hidden="0" type="field" name="nuts3"/>
-          <column width="-1" hidden="0" type="field" name="wikipedia"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ENF_HEBER,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ACT_EDUC,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_CHRS,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ACC_ASILE,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_AUTRES_SOC,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_TRAV_PROT,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_HEB_PROV,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ETA_PSY,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_URGENCES,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_MATERNITE,C,1"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <editform>.</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -1448,415 +468,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>departements_20140306_50m_copier20161124143916191</id>
-      <datasource>../newbed_SIG/departements-20140306-50m.shp</datasource>
+      <id>Dep_assos20161125152504933</id>
+      <datasource>./ressources QGIS/Heatmap/Dep_assos.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>departements-20140306-50m copier</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="ISO-8859-3">ogr</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins>
-        <join joinFieldName="Departement" targetFieldName="code_insee" memoryCache="1" joinLayerId="Infras_par_departement20161124131440393"/>
-      </vectorjoins>
-      <layerDependencies/>
-      <expressionfields/>
-      <defaults>
-        <default field="code_insee" expression=""/>
-        <default field="nom" expression=""/>
-        <default field="nuts3" expression=""/>
-        <default field="wikipedia" expression=""/>
-        <default field="Infras_par_departement_ENF_HEBER,C,2" expression=""/>
-        <default field="Infras_par_departement_ACT_EDUC,C,1" expression=""/>
-        <default field="Infras_par_departement_CHRS,C,2" expression=""/>
-        <default field="Infras_par_departement_ACC_ASILE,C,1" expression=""/>
-        <default field="Infras_par_departement_AUTRES_SOC,C,2" expression=""/>
-        <default field="Infras_par_departement_TRAV_PROT,C,2" expression=""/>
-        <default field="Infras_par_departement_HEB_PROV,C,1" expression=""/>
-        <default field="Infras_par_departement_ETA_PSY,C,2" expression=""/>
-        <default field="Infras_par_departement_URGENCES,C,1" expression=""/>
-        <default field="Infras_par_departement_MATERNITE,C,1" expression=""/>
-      </defaults>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code_insee">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nom">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nuts3">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ENF_HEBER,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ACT_EDUC,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_CHRS,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ACC_ASILE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_AUTRES_SOC,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_TRAV_PROT,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_HEB_PROV,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_ETA_PSY,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_URGENCES,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="Infras_par_departement_MATERNITE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
-        <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
-            <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="240,249,232,0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="141,171,224,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="diameter"/>
-      </renderer-v2>
-      <labeling type="simple"/>
-      <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="128"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/drawLabels" value="false"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fitInPolygonOnly" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="8.25"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="4294967295"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Normal"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/obstacleFactor" value="1"/>
-        <property key="labeling/obstacleType" value="0"/>
-        <property key="labeling/offsetType" value="0"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="1"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/useSubstitutions" value="false"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-        <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/popup/Infras_par_departement_ACC_ASILE,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_ACT_EDUC,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_AUTRES_SOC,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_CHRS,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_ENF_HEBER,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_ETA_PSY,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_HEB_PROV,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_MATERNITE,C,1" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_TRAV_PROT,C,2" value="no label"/>
-        <property key="qgis2web/popup/Infras_par_departement_URGENCES,C,1" value="no label"/>
-        <property key="qgis2web/popup/code_insee" value="no label"/>
-        <property key="qgis2web/popup/nom" value="no label"/>
-        <property key="qgis2web/popup/nuts3" value="no label"/>
-        <property key="qgis2web/popup/wikipedia" value="no label"/>
-        <property key="variableNames" value="_fields_"/>
-        <property key="variableValues" value=""/>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>code_insee</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Étiquette"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
-          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
-        </DiagramCategory>
-        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
-          <layer pass="0" class="SimpleMarker" locked="0">
-            <prop k="angle" v="0"/>
-            <prop k="color" v="255,0,0,255"/>
-            <prop k="horizontal_anchor_point" v="1"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="name" v="circle"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0"/>
-            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="scale_method" v="diameter"/>
-            <prop k="size" v="2"/>
-            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
-            <prop k="size_unit" v="MM"/>
-            <prop k="vertical_anchor_point" v="1"/>
-          </layer>
-        </symbol>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
-      <aliases>
-        <alias field="code_insee" index="0" name=""/>
-        <alias field="nom" index="1" name=""/>
-        <alias field="nuts3" index="2" name=""/>
-        <alias field="wikipedia" index="3" name=""/>
-        <alias field="Infras_par_departement_ENF_HEBER,C,2" index="4" name=""/>
-        <alias field="Infras_par_departement_ACT_EDUC,C,1" index="5" name=""/>
-        <alias field="Infras_par_departement_CHRS,C,2" index="6" name=""/>
-        <alias field="Infras_par_departement_ACC_ASILE,C,1" index="7" name=""/>
-        <alias field="Infras_par_departement_AUTRES_SOC,C,2" index="8" name=""/>
-        <alias field="Infras_par_departement_TRAV_PROT,C,2" index="9" name=""/>
-        <alias field="Infras_par_departement_HEB_PROV,C,1" index="10" name=""/>
-        <alias field="Infras_par_departement_ETA_PSY,C,2" index="11" name=""/>
-        <alias field="Infras_par_departement_URGENCES,C,1" index="12" name=""/>
-        <alias field="Infras_par_departement_MATERNITE,C,1" index="13" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="118978624">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="code_insee"/>
-          <column width="-1" hidden="0" type="field" name="nom"/>
-          <column width="-1" hidden="0" type="field" name="nuts3"/>
-          <column width="-1" hidden="0" type="field" name="wikipedia"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ENF_HEBER,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ACT_EDUC,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_CHRS,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ACC_ASILE,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_AUTRES_SOC,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_TRAV_PROT,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_HEB_PROV,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_ETA_PSY,C,2"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_URGENCES,C,1"/>
-          <column width="-1" hidden="0" type="field" name="Infras_par_departement_MATERNITE,C,1"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
-      </attributetableconfig>
-      <editform>.</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
-"""
-Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
-
-Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
-
-Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
-Voici un exemple à suivre:
-"""
-from qgis.PyQt.QtWidgets import QWidget
-
-def my_form_open(dialog, layer, feature):
-    geom = feature.geometry()
-    control = dialog.findChild(QWidget, "MyLineEdit")
-
-]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <globe>
-        <renderingMode mode="0"/>
-        <modelRendering lighting="1">
-          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
-          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
-          <labeling declutter="0" enabled="0" field=""/>
-        </modelRendering>
-      </globe>
-    </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <extent>
-        <xmin>-5.14223839797323912</xmin>
-        <ymin>41.3332277729552402</ymin>
-        <xmax>9.56036371003870045</xmax>
-        <ymax>51.08984197104997804</ymax>
-      </extent>
-      <id>regions_20140306_100m20161124134041676</id>
-      <datasource>./ressources QGIS/regions-20140306-100m.shp</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>regions-20140306-100m</layername>
+      <layername>Département</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1870,110 +487,123 @@ def my_form_open(dialog, layer, feature):
         </spatialrefsys>
       </srs>
       <provider encoding="UTF-8">ogr</provider>
-      <previewExpression>COALESCE( "code_insee", '&lt;NULL>' )</previewExpression>
-      <vectorjoins>
-        <join hasCustomPrefix="1" joinFieldName="region" customPrefix="" targetFieldName="code_insee" memoryCache="1" joinLayerId="Infras_regions20161124143012705"/>
-      </vectorjoins>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
       <defaults>
-        <default field="code_insee" expression=""/>
-        <default field="nom" expression=""/>
-        <default field="nom_cl" expression=""/>
-        <default field="insee_cl" expression=""/>
-        <default field="nuts2" expression=""/>
-        <default field="iso3166_2" expression=""/>
-        <default field="wikipedia" expression=""/>
-        <default field="nb_dep" expression=""/>
-        <default field="nb_comm" expression=""/>
-        <default field="surf_km2" expression=""/>
-        <default field="ENF_HEBER,C,2" expression=""/>
-        <default field="ACT_EDUC,C,1" expression=""/>
-        <default field="CHRS,C,2" expression=""/>
-        <default field="ACC_ASILE,C,1" expression=""/>
-        <default field="AUTRES_SOC,C,2" expression=""/>
-        <default field="TRAV_PROT,C,2" expression=""/>
-        <default field="HEB_PROV,C,1" expression=""/>
-        <default field="ETA_PSY,C,2" expression=""/>
-        <default field="URGENCES,C,1" expression=""/>
-        <default field="MATERNITE,C,1" expression=""/>
+        <default field="CODE_INSEE" expression=""/>
+        <default field="NOM" expression=""/>
+        <default field="SCORE" expression=""/>
       </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="code_insee">
+        <edittype widgetv2type="TextEdit" name="CODE_INSEE">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="nom">
+        <edittype widgetv2type="TextEdit" name="NOM">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="nom_cl">
+        <edittype widgetv2type="TextEdit" name="SCORE">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="insee_cl">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nuts2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="iso3166_2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nb_dep">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nb_comm">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="surf_km2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ENF_HEBER,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACT_EDUC,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="CHRS,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACC_ASILE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AUTRES_SOC,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="TRAV_PROT,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="HEB_PROV,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ETA_PSY,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="URGENCES,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="MATERNITE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+      <renderer-v2 attr=" to_real(  &quot;SCORE&quot; )" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.123676895751829" upper="0.556190881766166" label=" 0.12 - 0.56 "/>
+          <range render="true" symbol="1" lower="0.556190881766166" upper="1.052957580768732" label=" 0.56 - 1.05 "/>
+          <range render="true" symbol="2" lower="1.052957580768732" upper="1.737275360052842" label=" 1.05 - 1.74 "/>
+          <range render="true" symbol="3" lower="1.737275360052842" upper="2.508715919784714" label=" 1.74 - 2.51 "/>
+          <range render="true" symbol="4" lower="2.508715919784714" upper="4.711200957959641" label=" 2.51 - 4.71 "/>
+          <range render="true" symbol="5" lower="4.711200957959641" upper="6.678856124241421" label=" 4.71 - 6.68 "/>
+        </ranges>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="170,215,111,0"/>
+              <prop k="color" v="255,255,204,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,127,255"/>
+              <prop k="outline_color" v="0,95,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="207,235,163,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,95,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="150,211,134,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,95,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="91,184,106,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,95,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="39,151,78,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,95,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="0,104,55,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,95,0,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
@@ -1981,8 +611,34 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
         </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="46,132,137,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,95,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="255,255,204,255"/>
+          <prop k="color2" v="0,104,55,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.25;194,230,153,255:0.5;120,198,121,255:0.75;49,163,84,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="jenks"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="2"/>
       </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
@@ -2125,33 +781,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/popup/ACC_ASILE,C,1" value="no label"/>
-        <property key="qgis2web/popup/ACT_EDUC,C,1" value="no label"/>
-        <property key="qgis2web/popup/AUTRES_SOC,C,2" value="no label"/>
-        <property key="qgis2web/popup/CHRS,C,2" value="no label"/>
-        <property key="qgis2web/popup/ENF_HEBER,C,2" value="no label"/>
-        <property key="qgis2web/popup/ETA_PSY,C,2" value="no label"/>
-        <property key="qgis2web/popup/HEB_PROV,C,1" value="no label"/>
-        <property key="qgis2web/popup/MATERNITE,C,1" value="no label"/>
-        <property key="qgis2web/popup/TRAV_PROT,C,2" value="no label"/>
-        <property key="qgis2web/popup/URGENCES,C,1" value="no label"/>
-        <property key="qgis2web/popup/code_insee" value="no label"/>
-        <property key="qgis2web/popup/insee_cl" value="no label"/>
-        <property key="qgis2web/popup/iso3166_2" value="no label"/>
-        <property key="qgis2web/popup/nb_comm" value="no label"/>
-        <property key="qgis2web/popup/nb_dep" value="no label"/>
-        <property key="qgis2web/popup/nom" value="no label"/>
-        <property key="qgis2web/popup/nom_cl" value="no label"/>
-        <property key="qgis2web/popup/nuts2" value="no label"/>
-        <property key="qgis2web/popup/surf_km2" value="no label"/>
-        <property key="qgis2web/popup/wikipedia" value="no label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>code_insee</displayfield>
+      <displayfield>CODE_INSEE</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Étiquette"/>
@@ -2176,7 +812,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2202,61 +837,27 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
-        <alias field="code_insee" index="0" name=""/>
-        <alias field="nom" index="1" name=""/>
-        <alias field="nom_cl" index="2" name=""/>
-        <alias field="insee_cl" index="3" name=""/>
-        <alias field="nuts2" index="4" name=""/>
-        <alias field="iso3166_2" index="5" name=""/>
-        <alias field="wikipedia" index="6" name=""/>
-        <alias field="nb_dep" index="7" name=""/>
-        <alias field="nb_comm" index="8" name=""/>
-        <alias field="surf_km2" index="9" name=""/>
-        <alias field="ENF_HEBER,C,2" index="10" name=""/>
-        <alias field="ACT_EDUC,C,1" index="11" name=""/>
-        <alias field="CHRS,C,2" index="12" name=""/>
-        <alias field="ACC_ASILE,C,1" index="13" name=""/>
-        <alias field="AUTRES_SOC,C,2" index="14" name=""/>
-        <alias field="TRAV_PROT,C,2" index="15" name=""/>
-        <alias field="HEB_PROV,C,1" index="16" name=""/>
-        <alias field="ETA_PSY,C,2" index="17" name=""/>
-        <alias field="URGENCES,C,1" index="18" name=""/>
-        <alias field="MATERNITE,C,1" index="19" name=""/>
+        <alias field="CODE_INSEE" index="0" name=""/>
+        <alias field="NOM" index="1" name=""/>
+        <alias field="SCORE" index="2" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="715916288">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column width="-1" hidden="0" type="field" name="code_insee"/>
-          <column width="-1" hidden="0" type="field" name="nom"/>
-          <column width="-1" hidden="0" type="field" name="nom_cl"/>
-          <column width="-1" hidden="0" type="field" name="insee_cl"/>
-          <column width="-1" hidden="0" type="field" name="nuts2"/>
-          <column width="-1" hidden="0" type="field" name="iso3166_2"/>
-          <column width="-1" hidden="0" type="field" name="wikipedia"/>
-          <column width="-1" hidden="0" type="field" name="nb_dep"/>
-          <column width="-1" hidden="0" type="field" name="nb_comm"/>
-          <column width="-1" hidden="0" type="field" name="surf_km2"/>
+          <column width="-1" hidden="0" type="field" name="CODE_INSEE"/>
+          <column width="-1" hidden="0" type="field" name="NOM"/>
+          <column width="-1" hidden="0" type="field" name="SCORE"/>
           <column width="-1" hidden="1" type="actions"/>
-          <column width="-1" hidden="0" type="field" name="ENF_HEBER,C,2"/>
-          <column width="-1" hidden="0" type="field" name="ACT_EDUC,C,1"/>
-          <column width="-1" hidden="0" type="field" name="CHRS,C,2"/>
-          <column width="-1" hidden="0" type="field" name="ACC_ASILE,C,1"/>
-          <column width="-1" hidden="0" type="field" name="AUTRES_SOC,C,2"/>
-          <column width="-1" hidden="0" type="field" name="TRAV_PROT,C,2"/>
-          <column width="-1" hidden="0" type="field" name="HEB_PROV,C,1"/>
-          <column width="-1" hidden="0" type="field" name="ETA_PSY,C,2"/>
-          <column width="-1" hidden="0" type="field" name="URGENCES,C,1"/>
-          <column width="-1" hidden="0" type="field" name="MATERNITE,C,1"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -2289,19 +890,19 @@ def my_form_open(dialog, layer, feature):
         </modelRendering>
       </globe>
     </maplayer>
-    <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-5.14223839797323912</xmin>
         <ymin>41.3332277729552402</ymin>
         <xmax>9.56036371003870045</xmax>
         <ymax>51.08984197104997804</ymax>
       </extent>
-      <id>regions_20140306_100m_copier20161124143820008</id>
-      <datasource>./ressources QGIS/regions-20140306-100m.shp</datasource>
+      <id>Regions_assos20161125152327651</id>
+      <datasource>./ressources QGIS/Heatmap/Regions_assos.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>regions-20140306-100m copier</layername>
+      <layername>Regions</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -2316,99 +917,142 @@ def my_form_open(dialog, layer, feature):
       </srs>
       <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
-      <vectorjoins>
-        <join hasCustomPrefix="1" joinFieldName="region" customPrefix="" targetFieldName="code_insee" memoryCache="1" joinLayerId="Infras_regions20161124143012705"/>
-      </vectorjoins>
+      <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
       <defaults>
-        <default field="code_insee" expression=""/>
-        <default field="nom" expression=""/>
-        <default field="nom_cl" expression=""/>
-        <default field="insee_cl" expression=""/>
-        <default field="nuts2" expression=""/>
-        <default field="iso3166_2" expression=""/>
-        <default field="wikipedia" expression=""/>
-        <default field="nb_dep" expression=""/>
-        <default field="nb_comm" expression=""/>
-        <default field="surf_km2" expression=""/>
-        <default field="ENF_HEBER,C,2" expression=""/>
-        <default field="ACT_EDUC,C,1" expression=""/>
-        <default field="CHRS,C,2" expression=""/>
-        <default field="ACC_ASILE,C,1" expression=""/>
-        <default field="AUTRES_SOC,C,2" expression=""/>
-        <default field="TRAV_PROT,C,2" expression=""/>
-        <default field="HEB_PROV,C,1" expression=""/>
-        <default field="ETA_PSY,C,2" expression=""/>
-        <default field="URGENCES,C,1" expression=""/>
-        <default field="MATERNITE,C,1" expression=""/>
+        <default field="CODE_INSEE" expression=""/>
+        <default field="NOM" expression=""/>
+        <default field="SCORE" expression=""/>
       </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="code_insee">
+        <edittype widgetv2type="TextEdit" name="CODE_INSEE">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="nom">
+        <edittype widgetv2type="TextEdit" name="NOM">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="nom_cl">
+        <edittype widgetv2type="TextEdit" name="SCORE">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="insee_cl">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nuts2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="iso3166_2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nb_dep">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="nb_comm">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="surf_km2">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ENF_HEBER,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACT_EDUC,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="CHRS,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ACC_ASILE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AUTRES_SOC,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="TRAV_PROT,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="HEB_PROV,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="ETA_PSY,C,2">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="URGENCES,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="MATERNITE,C,1">
-          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
-      <renderer-v2 type="nullSymbol"/>
+      <renderer-v2 attr=" to_real(  &quot;SCORE&quot; )" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="0.390687121785184" upper="0.572000818503858" label=" 0.39 - 0.57 "/>
+          <range render="true" symbol="1" lower="0.572000818503858" upper="0.828040149888744" label=" 0.57 - 0.83 "/>
+          <range render="true" symbol="2" lower="0.828040149888744" upper="1.136822776810547" label=" 0.83 - 1.14 "/>
+          <range render="true" symbol="3" lower="1.136822776810547" upper="2.214033864737227" label=" 1.14 - 2.21 "/>
+          <range render="true" symbol="4" lower="2.214033864737227" upper="3.530981067426335" label=" 2.21 - 3.53 "/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="247,251,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="40,125,185,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="200,221,240,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="40,125,185,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="115,179,216,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="40,125,185,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="40,121,185,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="40,125,185,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="8,48,107,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="40,125,185,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="214,205,104,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="40,125,185,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="247,251,255,255"/>
+          <prop k="color2" v="8,48,107,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="jenks"/>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="2"/>
+      </renderer-v2>
       <labeling type="simple"/>
       <customproperties>
         <property key="embeddedWidgets/count" value="0"/>
@@ -2550,33 +1194,13 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
-        <property key="qgis2web/popup/ACC_ASILE,C,1" value="no label"/>
-        <property key="qgis2web/popup/ACT_EDUC,C,1" value="no label"/>
-        <property key="qgis2web/popup/AUTRES_SOC,C,2" value="no label"/>
-        <property key="qgis2web/popup/CHRS,C,2" value="no label"/>
-        <property key="qgis2web/popup/ENF_HEBER,C,2" value="no label"/>
-        <property key="qgis2web/popup/ETA_PSY,C,2" value="no label"/>
-        <property key="qgis2web/popup/HEB_PROV,C,1" value="no label"/>
-        <property key="qgis2web/popup/MATERNITE,C,1" value="no label"/>
-        <property key="qgis2web/popup/TRAV_PROT,C,2" value="no label"/>
-        <property key="qgis2web/popup/URGENCES,C,1" value="no label"/>
-        <property key="qgis2web/popup/code_insee" value="no label"/>
-        <property key="qgis2web/popup/insee_cl" value="no label"/>
-        <property key="qgis2web/popup/iso3166_2" value="no label"/>
-        <property key="qgis2web/popup/nb_comm" value="no label"/>
-        <property key="qgis2web/popup/nb_dep" value="no label"/>
-        <property key="qgis2web/popup/nom" value="no label"/>
-        <property key="qgis2web/popup/nom_cl" value="no label"/>
-        <property key="qgis2web/popup/nuts2" value="no label"/>
-        <property key="qgis2web/popup/surf_km2" value="no label"/>
-        <property key="qgis2web/popup/wikipedia" value="no label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>code_insee</displayfield>
+      <displayfield>CODE_INSEE</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Étiquette"/>
@@ -2601,7 +1225,6 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2627,61 +1250,27 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform></annotationform>
       <aliases>
-        <alias field="code_insee" index="0" name=""/>
-        <alias field="nom" index="1" name=""/>
-        <alias field="nom_cl" index="2" name=""/>
-        <alias field="insee_cl" index="3" name=""/>
-        <alias field="nuts2" index="4" name=""/>
-        <alias field="iso3166_2" index="5" name=""/>
-        <alias field="wikipedia" index="6" name=""/>
-        <alias field="nb_dep" index="7" name=""/>
-        <alias field="nb_comm" index="8" name=""/>
-        <alias field="surf_km2" index="9" name=""/>
-        <alias field="ENF_HEBER,C,2" index="10" name=""/>
-        <alias field="ACT_EDUC,C,1" index="11" name=""/>
-        <alias field="CHRS,C,2" index="12" name=""/>
-        <alias field="ACC_ASILE,C,1" index="13" name=""/>
-        <alias field="AUTRES_SOC,C,2" index="14" name=""/>
-        <alias field="TRAV_PROT,C,2" index="15" name=""/>
-        <alias field="HEB_PROV,C,1" index="16" name=""/>
-        <alias field="ETA_PSY,C,2" index="17" name=""/>
-        <alias field="URGENCES,C,1" index="18" name=""/>
-        <alias field="MATERNITE,C,1" index="19" name=""/>
+        <alias field="CODE_INSEE" index="0" name=""/>
+        <alias field="NOM" index="1" name=""/>
+        <alias field="SCORE" index="2" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="715916288">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="138309256">
         <columns>
-          <column width="-1" hidden="0" type="field" name="code_insee"/>
-          <column width="-1" hidden="0" type="field" name="nom"/>
-          <column width="-1" hidden="0" type="field" name="nom_cl"/>
-          <column width="-1" hidden="0" type="field" name="insee_cl"/>
-          <column width="-1" hidden="0" type="field" name="nuts2"/>
-          <column width="-1" hidden="0" type="field" name="iso3166_2"/>
-          <column width="-1" hidden="0" type="field" name="wikipedia"/>
-          <column width="-1" hidden="0" type="field" name="nb_dep"/>
-          <column width="-1" hidden="0" type="field" name="nb_comm"/>
-          <column width="-1" hidden="0" type="field" name="surf_km2"/>
+          <column width="-1" hidden="0" type="field" name="CODE_INSEE"/>
+          <column width="-1" hidden="0" type="field" name="NOM"/>
+          <column width="-1" hidden="0" type="field" name="SCORE"/>
           <column width="-1" hidden="1" type="actions"/>
-          <column width="-1" hidden="0" type="field" name="ENF_HEBER,C,2"/>
-          <column width="-1" hidden="0" type="field" name="ACT_EDUC,C,1"/>
-          <column width="-1" hidden="0" type="field" name="CHRS,C,2"/>
-          <column width="-1" hidden="0" type="field" name="ACC_ASILE,C,1"/>
-          <column width="-1" hidden="0" type="field" name="AUTRES_SOC,C,2"/>
-          <column width="-1" hidden="0" type="field" name="TRAV_PROT,C,2"/>
-          <column width="-1" hidden="0" type="field" name="HEB_PROV,C,1"/>
-          <column width="-1" hidden="0" type="field" name="ETA_PSY,C,2"/>
-          <column width="-1" hidden="0" type="field" name="URGENCES,C,1"/>
-          <column width="-1" hidden="0" type="field" name="MATERNITE,C,1"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform></editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath></editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
@@ -2698,78 +1287,6 @@ def my_form_open(dialog, layer, feature):
     control = dialog.findChild(QWidget, "MyLineEdit")
 
 ]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <widgets/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <globe>
-        <renderingMode mode="0"/>
-        <modelRendering lighting="1">
-          <altitude binding="0" clamping="1" verticalOffset="0" technique="3" verticalScale="0" clampingResolution="0"/>
-          <extrusion wall-gradient="0.5" enabled="0" height="10" flatten="0"/>
-          <labeling declutter="0" enabled="0" field=""/>
-        </modelRendering>
-      </globe>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>scores_regions20161124152818908</id>
-      <datasource>../DATA_SCIENCE/batch2_newbed/Test iris PDC/scores_regions.csv</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>scores_regions</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">ogr</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <layerDependencies/>
-      <expressionfields/>
-      <defaults>
-        <default field="region" expression=""/>
-        <default field="score" expression=""/>
-      </defaults>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="region">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="score">
-          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-        </edittype>
-      </edittypes>
-      <annotationform>.</annotationform>
-      <aliases>
-        <alias field="region" index="0" name=""/>
-        <alias field="score" index="1" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="963561520">
-        <columns/>
-      </attributetableconfig>
-      <editform>.</editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
@@ -2811,66 +1328,10 @@ def my_form_open(dialog, layer, feature):
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
-      <LayerSnappingList type="QStringList">
-        <value>ZONES_COUVERTES_INSEE20161124144122606</value>
-        <value>departements_20140306_50m20161124131507081</value>
-        <value>departements_20140306_50m_copier20161124143916191</value>
-        <value>regions_20140306_100m20161124134041676</value>
-        <value>regions_20140306_100m_copier20161124143820008</value>
-      </LayerSnappingList>
-      <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-      </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
-      <AvoidIntersectionsList type="QStringList"/>
-      <LayerSnappingToleranceUnitList type="QStringList">
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-      </LayerSnappingToleranceUnitList>
-      <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-      </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
-      <LayerSnappingToleranceList type="QStringList">
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-      </LayerSnappingToleranceList>
     </Digitizing>
-    <qgis2web>
-      <Maxzoomlevel type="int">27</Maxzoomlevel>
-      <Showpopupsonhover type="int">0</Showpopupsonhover>
-      <Basemaps type="QString">Stamen Toner</Basemaps>
-      <Exportfolder type="QString">C:\Users\capa-4\AppData\Local\Temp\qgis2web</Exportfolder>
-      <Precision type="int">0</Precision>
-      <Measuretool type="int">0</Measuretool>
-      <Addlayerslist type="int">1</Addlayerslist>
-      <Highlightonhover type="int">0</Highlightonhover>
-      <MatchprojectCRS type="int">0</MatchprojectCRS>
-      <Addaddresssearch type="int">1</Addaddresssearch>
-      <Minzoomlevel type="int">0</Minzoomlevel>
-      <Geolocateuser type="int">0</Geolocateuser>
-      <MinifyGeoJSONfiles type="int">0</MinifyGeoJSONfiles>
-      <Extent type="int">0</Extent>
-      <Restricttoextent type="int">0</Restricttoextent>
-      <Template type="int">0</Template>
-      <Mappinglibrarylocation type="int">0</Mappinglibrarylocation>
-      <Layersearch type="int">0</Layersearch>
-    </qgis2web>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
