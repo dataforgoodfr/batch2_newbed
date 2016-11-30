@@ -45,7 +45,7 @@ var jsonSource_CommunesetArrondissements = new ol.source.Vector();
 jsonSource_CommunesetArrondissements.addFeatures(features_CommunesetArrondissements);var lyr_CommunesetArrondissements = new ol.layer.Vector({
                 source:jsonSource_CommunesetArrondissements, 
                 
-                 maxResolution:155.089323045,
+                 maxResolution:155.0,
                  style: style_CommunesetArrondissements,
                 title: "Communes et Arrondissements"
             });var format_Hotels_Low_rating2 = new ol.format.GeoJSON();

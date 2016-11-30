@@ -37,6 +37,9 @@ measureControl = function(opt_options) {
 
 };
 ol.inherits(measureControl, ol.control.Control);
+
+
+
 var container = document.getElementById('popup');
 var content = document.getElementById('popup-content');
 var closer = document.getElementById('popup-closer');
@@ -67,6 +70,7 @@ var map = new ol.Map({
 });
 
 map.getView().fit([-972285.378180, 4089755.114698, 2393483.639657, 7277091.587017], map.getSize());
+
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
@@ -110,6 +114,7 @@ var doHighlight = false;
 var doHover = false;
 
 var highlight;
+
 var onPointerMove = function(evt) {
     if (!doHover && !doHighlight) {
         return;
