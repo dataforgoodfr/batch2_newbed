@@ -37,6 +37,8 @@ measureControl = function(opt_options) {
 
 };
 ol.inherits(measureControl, ol.control.Control);
+
+
 var container = document.getElementById('popup');
 var content = document.getElementById('popup-content');
 var closer = document.getElementById('popup-closer');
@@ -45,6 +47,7 @@ closer.onclick = function() {
     closer.blur();
     return false;
 };
+
 var overlayPopup = new ol.Overlay({
     element: container
 });
@@ -60,18 +63,18 @@ var map = new ol.Map({
     target: document.getElementById('map'),
     renderer: 'canvas',
     overlays: [overlayPopup],
-    layers: layersList,
+    layers: layersList, 
     view: new ol.View({
-         maxZoom: 28, minZoom: 3
+         maxZoom: 28, minZoom: 5
     })
 });
-                    
-map.getView().fit([-55000.160000, 5250000,223400, 6490000.140000], map.getSize());
+                   
+map.getView().fit([-528332.739507, 5074015.757449,948394.837634, 6787399.369658 ], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
 
-/**
+/**map.getLayers().setAt(-1, lyr_CommunesetArrondissements)
  * Returns either NO_POPUP, ALL_FIELDS or the name of a single field to use for
  * a given layer
  * @param layerList {Array} List of ol.Layer instances
@@ -91,7 +94,7 @@ var featureOverlay = new ol.layer.Vector({
     map: map,
     source: new ol.source.Vector({
         features: collection,
-        useSpatialIndex: false // optional, might improve performance
+        useSpatialIndex: true // optional, might improve performance
     }),
     style: [new ol.style.Style({
         stroke: new ol.style.Stroke({
@@ -107,9 +110,9 @@ var featureOverlay = new ol.layer.Vector({
 });
 
 var doHighlight = false;
-var doHover = false;
-
+var doHover = true;
 var highlight;
+
 var onPointerMove = function(evt) {
     if (!doHover && !doHighlight) {
         return;
@@ -121,11 +124,16 @@ var onPointerMove = function(evt) {
     var currentFeature;
     var currentLayer;
     var currentFeatureKeys;
+    var tags_popups=["field_1","SCORE",'Nom', 'Ville',  'Adresse',  'Note TripAdvisor',  'Etoiles',  'Nombre d\'avis', 
+                        'Chambres climatisées', 'Internet Gratuit ','Internet Haut Debit Gratuit ', 'Wi-Fi Public', 
+                        'Accès fauteuil roulant', 'Restaurant', 'Chambres familiales','Chambres accessibles', 
+                        'Animaux autorisés', 'Wi-Fi Payant ', 'Refrigérateur dans les chambres', 'Kitchenette dans les chambres',
+                         'Micro-ondes dans les chambres ', 'Internet payant', 'Hotel faisant partie d\'une chaine']
     map.forEachFeatureAtPixel(pixel, function(feature, layer) {
         // We only care about features from layers in the layersList, ignore
         // any other layers which the map might contain such as the vector
         // layer used by the measure tool
-        if (layersList.indexOf(layer) === -1) {
+        if (layersList.indexOf(layer) === -1 | layer.getZIndex()<100) {
             return;
         }
         currentFeature = feature;
@@ -140,9 +148,9 @@ var onPointerMove = function(evt) {
         if (doPopup) {
             popupText = '<table>';
             for (var i=0; i<currentFeatureKeys.length; i++) {
-                if (currentFeatureKeys[i] != 'geometry') {
+                if (currentFeatureKeys[i] != 'geometry'&& tags_popups.indexOf(layer.get('fieldAliases')[currentFeatureKeys[i]] )>-1) {
                     popupField = '';
-                    if (layer.get('fieldLabels')[currentFeatureKeys[i]] == "inline label") {
+                    if (layer.get('fieldLabels')[currentFeatureKeys[i]] == "inline label" ){
                         popupField += '<th>' + layer.get('fieldAliases')[currentFeatureKeys[i]] + ':</th><td>';
                     } else {
                         popupField += '<td colspan="2">';

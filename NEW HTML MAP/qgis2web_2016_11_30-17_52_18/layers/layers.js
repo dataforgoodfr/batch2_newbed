@@ -1,13 +1,7 @@
 var baseLayer = new ol.layer.Group({
     'title': 'Base maps',
     layers: [
-new ol.layer.Tile({
-    'title': 'Stamen Terrain',
-    'type': 'base',
-    source: new ol.source.Stamen({
-        layer: 'terrain'
-    })
-}),
+
 new ol.layer.Tile({
     'title': 'Stamen Watercolor',
     'type': 'base',
@@ -15,117 +9,155 @@ new ol.layer.Tile({
         layer: 'watercolor'
     })
 }),
-new ol.layer.Tile({
-    'title': 'Stamen Toner',
-    'type': 'base',
-        source: new ol.source.Stamen({
-        layer: 'toner'
-        })
-}),
 ]
 });
 var format_CommunesetArrondissements = new ol.format.GeoJSON();
 var features_CommunesetArrondissements = format_CommunesetArrondissements.readFeatures(geojson_CommunesetArrondissements, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_CommunesetArrondissements = new ol.source.Vector();
-jsonSource_CommunesetArrondissements.addFeatures(features_CommunesetArrondissements);var lyr_CommunesetArrondissements = new ol.layer.Vector({
-                source:jsonSource_CommunesetArrondissements, 
+    jsonSource_CommunesetArrondissements.addFeatures(features_CommunesetArrondissements);
+
+var lyr_CommunesetArrondissements = new ol.layer.Vector({
+                source:jsonSource_CommunesetArrondissements,
+                maxResolution:400, 
                 style: style_CommunesetArrondissements,
                 title: "Communes et Arrondissements"
-            });var format_HotelsInternetgratuit = new ol.format.GeoJSON();
+            });
+
+var format_HotelsInternetgratuit = new ol.format.GeoJSON();
+
 var features_HotelsInternetgratuit = format_HotelsInternetgratuit.readFeatures(geojson_HotelsInternetgratuit, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_HotelsInternetgratuit = new ol.source.Vector();
 jsonSource_HotelsInternetgratuit.addFeatures(features_HotelsInternetgratuit);var lyr_HotelsInternetgratuit = new ol.layer.Vector({
                 source:jsonSource_HotelsInternetgratuit, 
+                maxResolution:500,
                 style: style_HotelsInternetgratuit,
                 title: "Hotels Internet gratuit"
-            });var format_HotelsInternetPayant = new ol.format.GeoJSON();
+            });
+
+var format_HotelsInternetPayant = new ol.format.GeoJSON();
+
 var features_HotelsInternetPayant = format_HotelsInternetPayant.readFeatures(geojson_HotelsInternetPayant, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_HotelsInternetPayant = new ol.source.Vector();
 jsonSource_HotelsInternetPayant.addFeatures(features_HotelsInternetPayant);var lyr_HotelsInternetPayant = new ol.layer.Vector({
                 source:jsonSource_HotelsInternetPayant, 
+                maxResolution:500,
                 style: style_HotelsInternetPayant,
                 title: "Hotels Internet Payant"
             });var format_HotelsaccessiblesPMR = new ol.format.GeoJSON();
+
 var features_HotelsaccessiblesPMR = format_HotelsaccessiblesPMR.readFeatures(geojson_HotelsaccessiblesPMR, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_HotelsaccessiblesPMR = new ol.source.Vector();
 jsonSource_HotelsaccessiblesPMR.addFeatures(features_HotelsaccessiblesPMR);var lyr_HotelsaccessiblesPMR = new ol.layer.Vector({
                 source:jsonSource_HotelsaccessiblesPMR, 
+                maxResolution:500,
                 style: style_HotelsaccessiblesPMR,
                 title: "Hotels accessibles PMR"
             });var format_Hotelfaisantpartiedunechaine = new ol.format.GeoJSON();
+
 var features_Hotelfaisantpartiedunechaine = format_Hotelfaisantpartiedunechaine.readFeatures(geojson_Hotelfaisantpartiedunechaine, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Hotelfaisantpartiedunechaine = new ol.source.Vector();
 jsonSource_Hotelfaisantpartiedunechaine.addFeatures(features_Hotelfaisantpartiedunechaine);var lyr_Hotelfaisantpartiedunechaine = new ol.layer.Vector({
-                source:jsonSource_Hotelfaisantpartiedunechaine, 
+                source:jsonSource_Hotelfaisantpartiedunechaine,
+                maxResolution:500, 
                 style: style_Hotelfaisantpartiedunechaine,
                 title: "Hotel faisant partie d'une chaine"
             });var format_HotelsavecFrigoetouMicroondes = new ol.format.GeoJSON();
+
 var features_HotelsavecFrigoetouMicroondes = format_HotelsavecFrigoetouMicroondes.readFeatures(geojson_HotelsavecFrigoetouMicroondes, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_HotelsavecFrigoetouMicroondes = new ol.source.Vector();
 jsonSource_HotelsavecFrigoetouMicroondes.addFeatures(features_HotelsavecFrigoetouMicroondes);var lyr_HotelsavecFrigoetouMicroondes = new ol.layer.Vector({
-                source:jsonSource_HotelsavecFrigoetouMicroondes, 
+                source:jsonSource_HotelsavecFrigoetouMicroondes,
+                maxResolution:500, 
                 style: style_HotelsavecFrigoetouMicroondes,
                 title: "Hotels avec Frigo et ou Micro-ondes"
             });var format_Hotelschambreaveckitchenette = new ol.format.GeoJSON();
+
 var features_Hotelschambreaveckitchenette = format_Hotelschambreaveckitchenette.readFeatures(geojson_Hotelschambreaveckitchenette, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Hotelschambreaveckitchenette = new ol.source.Vector();
 jsonSource_Hotelschambreaveckitchenette.addFeatures(features_Hotelschambreaveckitchenette);var lyr_Hotelschambreaveckitchenette = new ol.layer.Vector({
-                source:jsonSource_Hotelschambreaveckitchenette, 
+                source:jsonSource_Hotelschambreaveckitchenette,
+                maxResolution:500, 
                 style: style_Hotelschambreaveckitchenette,
                 title: "Hotels chambre avec kitchenette"
             });var format_HotelPeuvisitsetmauvaisavis = new ol.format.GeoJSON();
+
 var features_HotelPeuvisitsetmauvaisavis = format_HotelPeuvisitsetmauvaisavis.readFeatures(geojson_HotelPeuvisitsetmauvaisavis, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_HotelPeuvisitsetmauvaisavis = new ol.source.Vector();
 jsonSource_HotelPeuvisitsetmauvaisavis.addFeatures(features_HotelPeuvisitsetmauvaisavis);var lyr_HotelPeuvisitsetmauvaisavis = new ol.layer.Vector({
                 source:jsonSource_HotelPeuvisitsetmauvaisavis, 
+                maxResolution:500,
                 style: style_HotelPeuvisitsetmauvaisavis,
                 title: "Hotel Peu visités et mauvais avis"
             });var format_Dpartement = new ol.format.GeoJSON();
+
 var features_Dpartement = format_Dpartement.readFeatures(geojson_Dpartement, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Dpartement = new ol.source.Vector();
 jsonSource_Dpartement.addFeatures(features_Dpartement);var lyr_Dpartement = new ol.layer.Vector({
                 source:jsonSource_Dpartement,
-minResolution:70.0111653807,
- maxResolution:560.089323045,
+minResolution:500,
+ maxResolution:1201,
 
                 style: style_Dpartement,
                 title: "Département"
             });var format_Regions = new ol.format.GeoJSON();
+
 var features_Regions = format_Regions.readFeatures(geojson_Regions, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
 var jsonSource_Regions = new ol.source.Vector();
-jsonSource_Regions.addFeatures(features_Regions);var lyr_Regions = new ol.layer.Vector({
+                            jsonSource_Regions.addFeatures(features_Regions);
+
+var lyr_Regions = new ol.layer.Vector({
                 source:jsonSource_Regions,
-minResolution:560.089323045,
- maxResolution:28004.4661523,
+                minResolution:1200,
+                maxResolution:28004.4661523,
 
                 style: style_Regions,
                 title: "Regions"
             });
 
-lyr_CommunesetArrondissements.setVisible(true);lyr_HotelsInternetgratuit.setVisible(false);lyr_HotelsInternetPayant.setVisible(false);lyr_HotelsaccessiblesPMR.setVisible(false);lyr_Hotelfaisantpartiedunechaine.setVisible(true);lyr_HotelsavecFrigoetouMicroondes.setVisible(false);lyr_Hotelschambreaveckitchenette.setVisible(true);lyr_HotelPeuvisitsetmauvaisavis.setVisible(false);lyr_Dpartement.setVisible(true);lyr_Regions.setVisible(true);
+lyr_CommunesetArrondissements.setZIndex(0);
+lyr_HotelsInternetgratuit.setZIndex(200);
+lyr_HotelsInternetPayant.setZIndex(201);
+lyr_HotelsaccessiblesPMR.setZIndex(201);
+lyr_Hotelfaisantpartiedunechaine.setZIndex(201);
+lyr_HotelsavecFrigoetouMicroondes.setZIndex(201);
+lyr_Hotelschambreaveckitchenette.setZIndex(201);
+lyr_HotelPeuvisitsetmauvaisavis.setZIndex(201);
+lyr_Dpartement.setZIndex(101);
+lyr_Regions.setZIndex(101)
+lyr_CommunesetArrondissements.setVisible(true);
+lyr_HotelsInternetgratuit.setVisible(true);
+lyr_HotelsInternetPayant.setVisible(true);
+lyr_HotelsaccessiblesPMR.setVisible(true);
+lyr_Hotelfaisantpartiedunechaine.setVisible(true);
+lyr_HotelsavecFrigoetouMicroondes.setVisible(true);
+lyr_Hotelschambreaveckitchenette.setVisible(true);
+lyr_HotelPeuvisitsetmauvaisavis.setVisible(true);
+
+lyr_Dpartement.setVisible(true);
+lyr_Regions.setVisible(true);
 var layersList = [baseLayer,lyr_CommunesetArrondissements,lyr_HotelsInternetgratuit,lyr_HotelsInternetPayant,lyr_HotelsaccessiblesPMR,lyr_Hotelfaisantpartiedunechaine,lyr_HotelsavecFrigoetouMicroondes,lyr_Hotelschambreaveckitchenette,lyr_HotelPeuvisitsetmauvaisavis,lyr_Dpartement,lyr_Regions];
 lyr_CommunesetArrondissements.set('fieldAliases', {'NOM': 'NOM', 'SCORE': 'SCORE', });
-lyr_HotelsInternetgratuit.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
-lyr_HotelsInternetPayant.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
-lyr_HotelsaccessiblesPMR.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
-lyr_Hotelfaisantpartiedunechaine.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
-lyr_HotelsavecFrigoetouMicroondes.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
-lyr_Hotelschambreaveckitchenette.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
-lyr_HotelPeuvisitsetmauvaisavis.set('fieldAliases', {'field_1': 'field_1', 'name': 'name', 'city': 'city', 'address': 'address', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'bubble_rat', 'star_ratin': 'star_ratin', 'review_cou': 'review_cou', 'air_condit': 'air_condit', 'free_inter': 'free_inter', 'free_high_': 'free_high_', 'public_wif': 'public_wif', 'wheelchair': 'wheelchair', 'restaurant': 'restaurant', 'family_roo': 'family_roo', 'accessible': 'accessible', 'pets_allow': 'pets_allow', 'paid_wifi': 'paid_wifi', 'refrigerat': 'refrigerat', 'kitchenett': 'kitchenett', 'microwave': 'microwave', 'paid_inter': 'paid_inter', 'chaine': 'chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_HotelsInternetgratuit.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_HotelsInternetPayant.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_HotelsaccessiblesPMR.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_Hotelfaisantpartiedunechaine.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_HotelsavecFrigoetouMicroondes.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_Hotelschambreaveckitchenette.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
+lyr_HotelPeuvisitsetmauvaisavis.set('fieldAliases', {'field_1': 'ID', 'name': 'Nom', 'city': 'Ville', 'address': 'Adresse', 'postcode': 'postcode', 'lat': 'lat', 'lng': 'lng', 'bubble_rat': 'Note TripAdvisor', 'star_ratin': 'Etoiles', 'review_cou': 'Nombre d\'avis', 'air_condit': 'Chambres climatisées', 'free_inter': 'Internet Gratuit ', 'free_high_': 'Internet Haut Debit Gratuit ', 'public_wif': 'Wi-Fi Public', 'wheelchair': 'Accès fauteuil roulant', 'restaurant': 'Restaurant', 'family_roo': 'Chambres familiales', 'accessible': 'Chambres accessibles', 'pets_allow': 'Animaux autorisés', 'paid_wifi': 'Wi-Fi Payant ', 'refrigerat': 'Refrigérateur dans les chambres', 'kitchenett': 'Kitchenette dans les chambres', 'microwave': 'Micro-ondes dans les chambres ', 'paid_inter': 'Internet payant', 'chaine': 'Hotel faisant partie d\'une chaine', 'rating_std': 'rating_std', 'rating_s_1': 'rating_s_1', });
 lyr_Dpartement.set('fieldAliases', {'CODE_INSEE': 'CODE_INSEE', 'NOM': 'NOM', 'SCORE': 'SCORE', });
 lyr_Regions.set('fieldAliases', {'CODE_INSEE': 'CODE_INSEE', 'NOM': 'NOM', 'SCORE': 'SCORE', });
 lyr_CommunesetArrondissements.set('fieldImages', {'NOM': 'TextEdit', 'SCORE': 'TextEdit', });
-lyr_HotelsInternetgratuit.set('fieldImages', {'field_1': 'TextEdit', 'name': 'TextEdit', 'city': 'TextEdit', 'address': 'TextEdit', 'postcode': 'TextEdit', 'lat': 'TextEdit', 'lng': 'TextEdit', 'bubble_rat': 'TextEdit', 'star_ratin': 'TextEdit', 'review_cou': 'TextEdit', 'air_condit': 'TextEdit', 'free_inter': 'TextEdit', 'free_high_': 'TextEdit', 'public_wif': 'TextEdit', 'wheelchair': 'TextEdit', 'restaurant': 'TextEdit', 'family_roo': 'TextEdit', 'accessible': 'TextEdit', 'pets_allow': 'TextEdit', 'paid_wifi': 'TextEdit', 'refrigerat': 'TextEdit', 'kitchenett': 'TextEdit', 'microwave': 'TextEdit', 'paid_inter': 'TextEdit', 'chaine': 'TextEdit', 'rating_std': 'TextEdit', 'rating_s_1': 'TextEdit', });
+lyr_HotelsInternetgratuit.set('fieldImages', { 'name': 'TextEdit', 'city': 'TextEdit', 'address': 'TextEdit', 'postcode': 'TextEdit', 'lat': 'TextEdit', 'lng': 'TextEdit', 'bubble_rat': 'TextEdit', 'star_ratin': 'TextEdit', 'review_cou': 'TextEdit', 'air_condit': 'TextEdit', 'free_inter': 'TextEdit', 'free_high_': 'TextEdit', 'public_wif': 'TextEdit', 'wheelchair': 'TextEdit', 'restaurant': 'TextEdit', 'family_roo': 'TextEdit', 'accessible': 'TextEdit', 'pets_allow': 'TextEdit', 'paid_wifi': 'TextEdit', 'refrigerat': 'TextEdit', 'kitchenett': 'TextEdit', 'microwave': 'TextEdit', 'paid_inter': 'TextEdit', 'chaine': 'TextEdit', 'rating_std': 'TextEdit', 'rating_s_1': 'TextEdit', });
 lyr_HotelsInternetPayant.set('fieldImages', {'field_1': 'TextEdit', 'name': 'TextEdit', 'city': 'TextEdit', 'address': 'TextEdit', 'postcode': 'TextEdit', 'lat': 'TextEdit', 'lng': 'TextEdit', 'bubble_rat': 'TextEdit', 'star_ratin': 'TextEdit', 'review_cou': 'TextEdit', 'air_condit': 'TextEdit', 'free_inter': 'TextEdit', 'free_high_': 'TextEdit', 'public_wif': 'TextEdit', 'wheelchair': 'TextEdit', 'restaurant': 'TextEdit', 'family_roo': 'TextEdit', 'accessible': 'TextEdit', 'pets_allow': 'TextEdit', 'paid_wifi': 'TextEdit', 'refrigerat': 'TextEdit', 'kitchenett': 'TextEdit', 'microwave': 'TextEdit', 'paid_inter': 'TextEdit', 'chaine': 'TextEdit', 'rating_std': 'TextEdit', 'rating_s_1': 'TextEdit', });
 lyr_HotelsaccessiblesPMR.set('fieldImages', {'field_1': 'TextEdit', 'name': 'TextEdit', 'city': 'TextEdit', 'address': 'TextEdit', 'postcode': 'TextEdit', 'lat': 'TextEdit', 'lng': 'TextEdit', 'bubble_rat': 'TextEdit', 'star_ratin': 'TextEdit', 'review_cou': 'TextEdit', 'air_condit': 'TextEdit', 'free_inter': 'TextEdit', 'free_high_': 'TextEdit', 'public_wif': 'TextEdit', 'wheelchair': 'TextEdit', 'restaurant': 'TextEdit', 'family_roo': 'TextEdit', 'accessible': 'TextEdit', 'pets_allow': 'TextEdit', 'paid_wifi': 'TextEdit', 'refrigerat': 'TextEdit', 'kitchenett': 'TextEdit', 'microwave': 'TextEdit', 'paid_inter': 'TextEdit', 'chaine': 'TextEdit', 'rating_std': 'TextEdit', 'rating_s_1': 'TextEdit', });
 lyr_Hotelfaisantpartiedunechaine.set('fieldImages', {'field_1': 'TextEdit', 'name': 'TextEdit', 'city': 'TextEdit', 'address': 'TextEdit', 'postcode': 'TextEdit', 'lat': 'TextEdit', 'lng': 'TextEdit', 'bubble_rat': 'TextEdit', 'star_ratin': 'TextEdit', 'review_cou': 'TextEdit', 'air_condit': 'TextEdit', 'free_inter': 'TextEdit', 'free_high_': 'TextEdit', 'public_wif': 'TextEdit', 'wheelchair': 'TextEdit', 'restaurant': 'TextEdit', 'family_roo': 'TextEdit', 'accessible': 'TextEdit', 'pets_allow': 'TextEdit', 'paid_wifi': 'TextEdit', 'refrigerat': 'TextEdit', 'kitchenett': 'TextEdit', 'microwave': 'TextEdit', 'paid_inter': 'TextEdit', 'chaine': 'TextEdit', 'rating_std': 'TextEdit', 'rating_s_1': 'TextEdit', });
