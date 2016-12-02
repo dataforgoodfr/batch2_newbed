@@ -5,8 +5,16 @@ var style_Hotelfaisantpartiedunechaine = function(feature, resolution){
     var value = ""
     var size = 0;
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.0 + size,
-            stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: "rgba(238,148,226,1.0)"})})
+        image: new ol.style.Icon({
+                  imgSize: [700, 700],
+                  scale: 0.05,
+                  anchor: [0.5,0.5],
+                  anchorXUnits: "fraction",
+                  anchorYUnits: "fraction",
+                  rotation: 0.0,
+                  offset: [0, 0],
+                  src: "styles/citron.svg"
+            })
     })];
     if ("" !== null) {
         var labelText = String("");
@@ -21,8 +29,8 @@ var style_Hotelfaisantpartiedunechaine = function(feature, resolution){
               text: labelText,
               textBaseline: "center",
               textAlign: "left",
-              offsetX: 5,
-              offsetY: 3,
+              offsetX: 0,
+              offsetY: 0,
               fill: new ol.style.Fill({
                 color: "rgba(None, None, None, 255)"
               }),

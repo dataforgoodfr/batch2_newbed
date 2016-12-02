@@ -32,25 +32,25 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotel_service_min20161128135322230" name="Hotel_service_min">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotel_Peu_visités_et_mauvais_avis20161129165133044" name="Hotel Peu visités et mauvais avis">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotel_Peu_visités_et_mauvais_avis20161129165133044" name="Hotel Peu visités et mauvais avis">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotels_chambre_avec_kitchenette20161129115246376" name="Hotels chambre avec kitchenette">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotels_chambre_avec_kitchenette20161129115246376" name="Hotels chambre avec kitchenette">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotels_avec_Frigo_et_ou_Micro_ondes20161129154519822" name="Hotels avec Frigo et ou Micro-ondes">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotels_avec_Frigo_et_ou_Micro_ondes20161129154519822" name="Hotels avec Frigo et ou Micro-ondes">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotel_Chaine20161128133732273" name="Hotel faisant partie d'une chaine">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotel_Chaine20161128133732273" name="Hotel faisant partie d'une chaine">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotels_accessibles_PMR20161129150802663" name="Hotels accessibles PMR">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotels_accessibles_PMR20161129150802663" name="Hotels accessibles PMR">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotels_Internet_Payant20161129153324137" name="Hotels Internet Payant">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hotels_avec_Internet_gratuit20161129114843679" name="Hotels Internet gratuit">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotels_avec_Internet_gratuit20161129114843679" name="Hotels Internet gratuit">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hotels_Low_rating220161128133403457" name="Hotels_Low_rating2">
@@ -67,10 +67,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-12.90744349851519956</xmin>
-      <ymin>21.19517585447203345</ymin>
-      <xmax>46.32299617571043626</xmax>
-      <ymax>61.4113560579545279</ymax>
+      <xmin>-5.76200000381687971</xmin>
+      <ymin>40.96314370974142349</ymin>
+      <xmax>11.55340567668478968</xmax>
+      <ymax>52.71992753531350928</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -158,29 +158,29 @@
         <legendlayerfile isInOverview="0" layerid="Hotel_service_min20161128135322230" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotel Peu visités et mauvais avis" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotel Peu visités et mauvais avis" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hotel_Peu_visités_et_mauvais_avis20161129165133044" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Hotel_Peu_visités_et_mauvais_avis20161129165133044" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotels chambre avec kitchenette" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotels chambre avec kitchenette" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hotels_chambre_avec_kitchenette20161129115246376" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Hotels_chambre_avec_kitchenette20161129115246376" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotels avec Frigo et ou Micro-ondes" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotels avec Frigo et ou Micro-ondes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hotels_avec_Frigo_et_ou_Micro_ondes20161129154519822" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Hotels_avec_Frigo_et_ou_Micro_ondes20161129154519822" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotel faisant partie d'une chaine" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotel faisant partie d'une chaine" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hotel_Chaine20161128133732273" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Hotel_Chaine20161128133732273" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotels accessibles PMR" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotels accessibles PMR" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hotels_accessibles_PMR20161129150802663" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Hotels_accessibles_PMR20161129150802663" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotels Internet Payant" showFeatureCount="0">
@@ -188,9 +188,9 @@
         <legendlayerfile isInOverview="0" layerid="Hotels_Internet_Payant20161129153324137" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hotels Internet gratuit" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotels Internet gratuit" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hotels_avec_Internet_gratuit20161129114843679" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="Hotels_avec_Internet_gratuit20161129114843679" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hotels_Low_rating2" showFeatureCount="0">
@@ -511,7 +511,7 @@
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
         <property key="qgis2web/popup/NOM" value="no label"/>
-        <property key="qgis2web/popup/SCORE" value="no label"/>
+        <property key="qgis2web/popup/SCORE" value="inline label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -621,6 +621,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="250000" maximumScale="2e+06" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-61.80976135417029838</xmin>
+        <ymin>-21.3897307415710074</ymin>
+        <xmax>55.83665048866338765</xmax>
+        <ymax>51.08984197104997804</ymax>
+      </extent>
       <id>Dep_assos20161125152504933</id>
       <datasource>./ressources QGIS/Heatmap/Dep_assos.shp</datasource>
       <keywordList>
@@ -936,7 +942,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/zIndex" value="0"/>
         <property key="qgis2web/popup/CODE_INSEE" value="no label"/>
         <property key="qgis2web/popup/NOM" value="no label"/>
-        <property key="qgis2web/popup/SCORE" value="no label"/>
+        <property key="qgis2web/popup/SCORE" value="inline label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -1177,6 +1183,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.49273900000000026</xmin>
+        <ymin>41.59374600000000299</ymin>
+        <xmax>9.27851700000000079</xmax>
+        <ymax>51.02290299999999945</ymax>
+      </extent>
       <id>Hotel_Chaine20161128133732273</id>
       <datasource>./ressources QGIS/Heatmap/Hotel_Chaine.shp</datasource>
       <keywordList>
@@ -1344,7 +1356,35 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -1428,6 +1468,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.95586799999999972</xmin>
+        <ymin>41.53644600000001219</ymin>
+        <xmax>9.52003400000000077</xmax>
+        <ymax>50.95777999999999963</ymax>
+      </extent>
       <id>Hotel_Peu_visités_et_mauvais_avis20161129165133044</id>
       <datasource>./ressources QGIS/Heatmap/Hotel Peu visités et mauvais avis.shp</datasource>
       <keywordList>
@@ -1595,7 +1641,35 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -2609,6 +2683,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.48535199999999978</xmin>
+        <ymin>42.50419999999999732</ymin>
+        <xmax>7.73846100000000003</xmax>
+        <ymax>49.50324000000001234</ymax>
+      </extent>
       <id>Hotels_Internet_Payant20161129153324137</id>
       <datasource>./ressources QGIS/Heatmap/Hotels Internet Payant.shp</datasource>
       <keywordList>
@@ -2750,22 +2830,20 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
-            <layer pass="0" class="SimpleMarker" locked="0">
+            <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="31,120,180,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="square"/>
+              <prop k="name" v="symbol/blue-marker.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="2"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="6.2"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -2916,6 +2994,33 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -3824,6 +3929,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.59888399999999997</xmin>
+        <ymin>41.84396999999999878</ymin>
+        <xmax>9.52866200000000063</xmax>
+        <ymax>51.04719999999999658</ymax>
+      </extent>
       <id>Hotels_accessibles_PMR20161129150802663</id>
       <datasource>./ressources QGIS/Heatmap/Hotels accessibles PMR.shp</datasource>
       <keywordList>
@@ -3991,7 +4102,36 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="qgis2web/Cluster" value="0"/>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -4075,6 +4215,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.11186000000000007</xmin>
+        <ymin>41.53644600000001219</ymin>
+        <xmax>8.85625800000000041</xmax>
+        <ymax>50.72021999999999764</ymax>
+      </extent>
       <id>Hotels_avec_Frigo_et_ou_Micro_ondes20161129154519822</id>
       <datasource>./ressources QGIS/Heatmap/Hotels avec Frigo et ou Micro-ondes.shp</datasource>
       <keywordList>
@@ -4242,7 +4388,36 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="qgis2web/Cluster" value="0"/>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -4326,6 +4501,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.62000000000000011</xmin>
+        <ymin>41.38954499999999825</ymin>
+        <xmax>9.53040200000000048</xmax>
+        <ymax>51.04719999999999658</ymax>
+      </extent>
       <id>Hotels_avec_Internet_gratuit20161129114843679</id>
       <datasource>./ressources QGIS/Heatmap/Hotels avec Internet gratuit.shp</datasource>
       <keywordList>
@@ -4633,6 +4814,33 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/xOffset" value="0"/>
         <property key="labeling/yOffset" value="0"/>
         <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -4791,6 +4999,12 @@ def my_form_open(dialog, layer, feature):
       </globe>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-4.48535199999999978</xmin>
+        <ymin>41.53644600000001219</ymin>
+        <xmax>8.85625800000000041</xmax>
+        <ymax>50.72021999999999764</ymax>
+      </extent>
       <id>Hotels_chambre_avec_kitchenette20161129115246376</id>
       <datasource>./ressources QGIS/Heatmap/Hotels chambre avec kitchenette.shp</datasource>
       <keywordList>
@@ -4958,7 +5172,36 @@ def my_form_open(dialog, layer, feature):
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
       <labeling type="simple"/>
-      <customproperties/>
+      <customproperties>
+        <property key="qgis2web/Cluster" value="0"/>
+        <property key="qgis2web/popup/accessible" value="inline label"/>
+        <property key="qgis2web/popup/address" value="no label"/>
+        <property key="qgis2web/popup/air_condit" value="inline label"/>
+        <property key="qgis2web/popup/bubble_rat" value="inline label"/>
+        <property key="qgis2web/popup/chaine" value="inline label"/>
+        <property key="qgis2web/popup/city" value="no label"/>
+        <property key="qgis2web/popup/family_roo" value="inline label"/>
+        <property key="qgis2web/popup/field_1" value="no label"/>
+        <property key="qgis2web/popup/free_high_" value="inline label"/>
+        <property key="qgis2web/popup/free_inter" value="inline label"/>
+        <property key="qgis2web/popup/kitchenett" value="inline label"/>
+        <property key="qgis2web/popup/lat" value="no label"/>
+        <property key="qgis2web/popup/lng" value="no label"/>
+        <property key="qgis2web/popup/microwave" value="inline label"/>
+        <property key="qgis2web/popup/name" value="no label"/>
+        <property key="qgis2web/popup/paid_inter" value="inline label"/>
+        <property key="qgis2web/popup/paid_wifi" value="inline label"/>
+        <property key="qgis2web/popup/pets_allow" value="inline label"/>
+        <property key="qgis2web/popup/postcode" value="no label"/>
+        <property key="qgis2web/popup/public_wif" value="inline label"/>
+        <property key="qgis2web/popup/rating_s_1" value="inline label"/>
+        <property key="qgis2web/popup/rating_std" value="inline label"/>
+        <property key="qgis2web/popup/refrigerat" value="inline label"/>
+        <property key="qgis2web/popup/restaurant" value="inline label"/>
+        <property key="qgis2web/popup/review_cou" value="inline label"/>
+        <property key="qgis2web/popup/star_ratin" value="inline label"/>
+        <property key="qgis2web/popup/wheelchair" value="inline label"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -5471,7 +5714,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/zIndex" value="0"/>
         <property key="qgis2web/popup/CODE_INSEE" value="no label"/>
         <property key="qgis2web/popup/NOM" value="no label"/>
-        <property key="qgis2web/popup/SCORE" value="no label"/>
+        <property key="qgis2web/popup/SCORE" value="inline label"/>
         <property key="variableNames" value="_fields_"/>
         <property key="variableValues" value=""/>
       </customproperties>
@@ -6084,7 +6327,7 @@ def my_form_open(dialog, layer, feature):
     <qgis2web>
       <Maxzoomlevel type="int">27</Maxzoomlevel>
       <Showpopupsonhover type="int">0</Showpopupsonhover>
-      <Basemaps type="QString">Stamen Toner</Basemaps>
+      <Basemaps type="QString">Stamen Terrain,Stamen Watercolor,Stamen Toner,OSM B&amp;W</Basemaps>
       <Exportfolder type="QString">C:\Users\capa-4\Desktop\batch2_newbed\NEW HTML MAP</Exportfolder>
       <Precision type="int">0</Precision>
       <Measuretool type="int">1</Measuretool>
@@ -6092,10 +6335,10 @@ def my_form_open(dialog, layer, feature):
       <Highlightonhover type="int">0</Highlightonhover>
       <MatchprojectCRS type="int">0</MatchprojectCRS>
       <Addaddresssearch type="int">1</Addaddresssearch>
-      <Minzoomlevel type="int">0</Minzoomlevel>
+      <Minzoomlevel type="int">2</Minzoomlevel>
       <Geolocateuser type="int">0</Geolocateuser>
       <MinifyGeoJSONfiles type="int">1</MinifyGeoJSONfiles>
-      <Extent type="int">0</Extent>
+      <Extent type="int">1</Extent>
       <Restricttoextent type="int">0</Restricttoextent>
       <Template type="int">1</Template>
       <Mappinglibrarylocation type="int">0</Mappinglibrarylocation>
