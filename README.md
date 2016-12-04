@@ -8,6 +8,8 @@ Le but de newbed est d'identifier des hébergements succeptibles d'accueillir de
   * ```Procfile``` - Web worker configuration
   * ```runtime.txt``` - Python version configuration
 * ```/static``` - Contains the current version (on master branch) of newbed.org
+  * ```index.html``` - The landing page of newbed.org
+  * ```map``` - Contains the map shown on the landing page
 * ```/workspace``` - All the data, works in progress and other files not directly
   used by the website has been moved here
 
