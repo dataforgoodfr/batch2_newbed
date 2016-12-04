@@ -1,6 +1,16 @@
 # batch2_newbed
 Le but de newbed est d'identifier des hébergements succeptibles d'accueillir des réfugiés
 
+## Directory structure / index
+
+* ```/``` - The root directory contains files needed by Heroku:
+  * ```newbed_app.py``` - A simple flask application that serves static content from ```/static```
+  * ```Procfile``` - Web worker configuration
+  * ```runtime.txt``` - Python version configuration
+* ```/static``` - Contains the current version (on master branch) of newbed.org
+* ```/workspace``` - All the data, works in progress and other files not directly
+  used by the website has been moved here
+
 ## Running the app locally
 * [Install virtualenv][venv]
 * Create a new virtualenv environment: ```virtualenv --python=python3 env```
