@@ -1,1 +1,111 @@
-<iframe src="/map/index.html"></iframe>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newbed</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <script>
+     window.twttr = (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0],
+       t = window.twttr || {};
+       if (d.getElementById(id)) return t;
+       js = d.createElement(s);
+       js.id = id;
+       js.src = "https://platform.twitter.com/widgets.js";
+       fjs.parentNode.insertBefore(js, fjs);
+       
+       t._e = [];
+       t.ready = function(f) {
+         t._e.push(f);
+       };
+
+       return t;
+     }(document, "script", "twitter-wjs"));
+    </script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=228713813837461";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <div class="row">
+      <div class="small-8 columns">
+        <div class="row">
+          <div class="small-12 columns">
+            <h1 class="logo">Newbed</h1>
+          </div>
+
+          <div class="small-12 columns">
+            <p>
+              Identifier des hébergements susceptibles d'accueillir des réfugiés
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-4 columns">
+        <div class="row">
+          <div class="small-12 columns text-right twitter-column">
+            <a class="twitter-share-button"
+               href="https://twitter.com/intent/tweet"
+               data-text="Newbed - Identifier des hébergements susceptibles d'accueillir des réfugiés"
+               data-url="http://www.newbed.org"
+               data-size="large">
+              Tweet
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="small-12 columns text-right">
+            <div class="fb-share-button"
+                 data-href="http://www.newbed.org"
+                 data-layout="button_count"
+                 data-size="large"
+                 data-mobile-iframe="false">
+              <a class="fb-xfbml-parse-ignore"
+                 target="_blank"
+                 href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.newbed.org%2F&amp;src=sdkpreparse">
+                Share
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-middle map-row">
+      <div class="small-12 columns">
+        <iframe src="/map/index.html" id="map-frame"></iframe>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+     function docFill(){
+       var $map = $("#map-frame");
+       var $share = $("#share");
+       var $win = $(window);
+       var margin = 10;
+       var height = $win.height() - $map.position().top - $share.height() - margin;
+       $("#map-frame").css("height", height);
+     };
+     $(document).ready(docFill);
+     $(window).resize(docFill);
+     window.setInterval(docFill, 500); // stupid social buttons + fonts
+    </script>
+  </body>
+</html>
