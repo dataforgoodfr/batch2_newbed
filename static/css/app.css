@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:200');
 
 body {
-    background-color: #F4F1BB;
-    color: #5CA4A9;
+    background-color: #FFF;
+    color: #356063;
     font-size: 1.3rem;
     font-family: "Catamaran", sans-serif;
 }
@@ -24,10 +24,14 @@ h1.logo {
     padding-top: 10px;
 }
 
+p.tagline {
+    font-size: .9rem;
+    line-height: .9rem;
+}
+
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-
 }
 
 /* Medium and up */
@@ -35,6 +39,11 @@ h1.logo {
     h1.logo {
         font-size: 3rem;
     }
+    p.tagline {
+        font-size: 1.2.rem;
+        line-height: 1.2rem;
+    }
+
 }
 
 /* Large and up */
@@ -42,4 +51,9 @@ h1.logo {
     h1.logo {
         font-size: 4rem;
     }
+    p.tagline {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
 }

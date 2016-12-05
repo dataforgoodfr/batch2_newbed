@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200');
+
 html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    font-size: small;
+    color: #356063;
+    font-family: "Catamaran", sans-serif;
+    font-size: .9rem;
 }
 
 th, td {
@@ -26,9 +29,9 @@ th, td {
     padding: 15px;
     border-radius: 2px;
     border: 1px solid #cccccc;
-    right: 265px;
+    right: 220px;
     transform: translate(-20%, 0%);
-    top:0px;   
+    top:2px;   
     height:717px;
     width: 218px;
     min-width: 150px;
@@ -42,7 +45,8 @@ th, td {
     right: 8px;
 }
 
-.layer-switcher {
+.ol-control.layer-switcher.shown {
+    top: 1px;
     right: 0px;
 }
 
