@@ -1,5 +1,21 @@
 # batch2_newbed
-Le but de newbed est d'identifier des hébergements succeptibles d'accueillir des réfugiés
+
+Le but de [newbed][newbed] est d'identifier des hébergements succeptibles
+d'accueillir des réfugiés
+
+## Directory structure / index
+
+* ```/``` - The root directory contains files needed by Heroku:
+  * ```newbed_app.py``` - A simple flask application that serves static content from ```/static```
+  * ```Procfile``` - Web worker configuration
+  * ```runtime.txt``` - Python version configuration
+
+* [```/static```](/static) - Contains the current version (on master branch) of
+  [newbed.org][newbed]
+  * ```index.html``` - The landing page of [newbed.org][newbed]
+  * ```map``` - Contains the map shown on the landing page
+* [```/workspace```](/workspace) - All the data, works in progress and other
+  files not directly used by the website has been moved here
 
 ## Running the app locally
 * [Install virtualenv][venv]
@@ -13,9 +29,13 @@ To deploy the app, you need access to a Heroku account, you can set one up [this
 Once you have an account, you can [deploy the app][deploy], see "Existing Git repository".
 
 ## Demo
+
 The app is currently running on:
-https://newbed.herokuapp.com/
+
+* https://newbed.herokuapp.com
+* http://www.newbed.org
 
 [venv]: https://virtualenv.pypa.io/en/stable/
 [setup]: https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 [deploy]: https://dashboard.heroku.com/apps/newbed/deploy/heroku-git
+[newbed]: http://www.newbed.org

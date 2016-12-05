@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:200');
+
 html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    font-size: small;
+    color: #356063;
+    font-family: "Catamaran", sans-serif;
+    font-size: .9rem;
 }
 
 th, td {
@@ -12,12 +15,11 @@ th, td {
 }
 
 #map {
-    width: 65%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0px;
+    left: 0px;
 }
 
 .ol-popup {
@@ -27,11 +29,13 @@ th, td {
     padding: 15px;
     border-radius: 2px;
     border: 1px solid #cccccc;
-    left: -250px;
-    top:0px;   
+    right: 220px;
+    transform: translate(-20%, 0%);
+    top:2px;   
     height:717px;
     width: 218px;
-    min-width: 150px;     
+    min-width: 150px;
+    z-index: 999;
 }
 
 .ol-popup-closer {
@@ -41,6 +45,10 @@ th, td {
     right: 8px;
 }
 
+.ol-control.layer-switcher.shown {
+    top: 1px;
+    right: 0px;
+}
 
 .ol-attribution a {
     text-decoration: none;
