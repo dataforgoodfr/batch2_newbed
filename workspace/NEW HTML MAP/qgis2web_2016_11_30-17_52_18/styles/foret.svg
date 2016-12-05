@@ -19,10 +19,10 @@
    inkscape:version="0.48.4 r9939"
    width="100%"
    height="100%"
-   sodipodi:docname="base.svg"><metadata
+   sodipodi:docname="foret.svg"><metadata
    id="metadata45"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs43" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -37,7 +37,7 @@
    id="namedview41"
    showgrid="false"
    inkscape:zoom="4.3527528"
-   inkscape:cx="158.29527"
+   inkscape:cx="118.78005"
    inkscape:cy="153.7122"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
@@ -117,6 +117,6 @@
    sodipodi:cx="85.319016"
    sodipodi:sides="3"
    id="path3814"
-   style="fill:#76e439;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994;stroke-linejoin:round;stroke-miterlimit:4.30000019;stroke-opacity:1;stroke-dasharray:none"
+   style="fill:#2a9f39;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994000000003;stroke-linejoin:round;stroke-miterlimit:4.30000019000000040;stroke-opacity:1;stroke-dasharray:none"
    sodipodi:type="star"
    inkscape:transform-center-y="-13.190769" /></svg>

@@ -22,34 +22,34 @@ ol.control.LayerSwitcher = function(opt_options) {
     this.shownClassName = this.hiddenClassName + ' shown';
 
     var element = document.createElement('div');
-    element.className = this.hiddenClassName;
+    element.className = this.shownClassName;
 
-    var button = document.createElement('button');
-    button.setAttribute('title', tipLabel);
-    element.appendChild(button);
+    // var button = document.createElement('button');
+    // button.setAttribute('title', tipLabel);
+    // element.appendChild(button);
 
     this.panel = document.createElement('div');
     this.panel.className = 'panel';
     element.appendChild(this.panel);
     ol.control.LayerSwitcher.enableTouchScroll_(this.panel);
 
-    var this_ = this;
+    /**/var this_ = this;
 
-    button.onmouseover = function(e) {
-        this_.showPanel();
-    };
+    // button.onmouseover = function(e) {
+    //     this_.showPanel();
+    // };
 
-    button.onclick = function(e) {
-        e = e || window.event;
-        this_.showPanel();
-        e.preventDefault();
-    };
+    // button.onclick = function(e) {
+    //     e = e || window.event;
+    //     this_.showPanel();
+    //     e.preventDefault();
+    // };
 
-    this_.panel.onmouseout = function(e) {
-        e = e || window.event;
-        if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
-            this_.hidePanel();
-        }
+     this_.panel.onmouseout = function(e) {
+         e = e || window.event;
+         if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
+             this_.showPanel();
+         }
     };
 
     ol.control.Control.call(this, {
@@ -74,11 +74,11 @@ ol.control.LayerSwitcher.prototype.showPanel = function() {
 /**
  * Hide the layer panel.
  */
-ol.control.LayerSwitcher.prototype.hidePanel = function() {
-    if (this.element.className != this.hiddenClassName) {
-        this.element.className = this.hiddenClassName;
-    }
-};
+// ol.control.LayerSwitcher.prototype.hidePanel = function() {
+//     if (this.element.className != this.hiddenClassName) {
+//         this.element.className = this.hiddenClassName;
+//     }
+// };
 
 /**
  * Re-draw the layer panel to represent the current state of the layers.
@@ -112,7 +112,7 @@ ol.control.LayerSwitcher.prototype.setMap = function(map) {
     if (map) {
         var this_ = this;
         this.mapListeners.push(map.on('pointerdown', function() {
-            this_.hidePanel();
+            this_.showPanel();
         }));
         this.renderPanel();
     }

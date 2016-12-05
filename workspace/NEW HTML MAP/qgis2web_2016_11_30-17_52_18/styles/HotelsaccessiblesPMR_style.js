@@ -7,7 +7,7 @@ var style_HotelsaccessiblesPMR = function(feature, resolution){
     var style = [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [700, 700],
-                  scale: 0.05,
+                  scale: 0.035,
                   anchor: [0.5,0.5],
                   anchorXUnits: "fraction",
                   anchorYUnits: "fraction",
@@ -25,14 +25,14 @@ var style_HotelsaccessiblesPMR = function(feature, resolution){
 
     if (!styleCache_HotelsaccessiblesPMR[key]){
         var text = new ol.style.Text({
-              font: '10px \'None\', sans-serif',
+              font: '10.725px \'MS Shell Dlg 2\', sans-serif',
               text: labelText,
               textBaseline: "center",
               textAlign: "left",
-              offsetX: 5,
-              offsetY: 3,
+              offsetX: 0,
+              offsetY: 0,
               fill: new ol.style.Fill({
-                color: "rgba(None, None, None, 255)"
+                color: "rgba(0, 0, 0, 255)"
               }),
             });
         styleCache_HotelsaccessiblesPMR[key] = new ol.style.Style({"text": text})

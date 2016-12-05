@@ -7,7 +7,7 @@ var style_Hotels_Low_rating2 = function(feature, resolution){
     var style = [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [700, 700],
-                  scale: 0.05,
+                  scale: 0.035,
                   anchor: [0.5,0.5],
                   anchorXUnits: "fraction",
                   anchorYUnits: "fraction",
@@ -25,14 +25,14 @@ var style_Hotels_Low_rating2 = function(feature, resolution){
 
     if (!styleCache_Hotels_Low_rating2[key]){
         var text = new ol.style.Text({
-              font: '10px \'None\', sans-serif',
+              font: '10.725px \'MS Shell Dlg 2\', sans-serif',
               text: labelText,
               textBaseline: "center",
               textAlign: "left",
               offsetX: 5,
               offsetY: 3,
               fill: new ol.style.Fill({
-                color: "rgba(None, None, None, 255)"
+                color: "rgba(0, 0, 0, 255)"
               }),
             });
         styleCache_Hotels_Low_rating2[key] = new ol.style.Style({"text": text})

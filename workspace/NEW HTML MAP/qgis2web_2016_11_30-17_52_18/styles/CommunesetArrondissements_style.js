@@ -11,8 +11,11 @@ var ranges_CommunesetArrondissements = [[0.000000, 0.500000, [ new ol.style.Styl
 [3.000000, 5.000000, [ new ol.style.Style({
          fill: new ol.style.Fill({color: "rgba(217,95,14,1.0)"})
     })]],
-[5.000000, 15.000000, [ new ol.style.Style({
-         fill: new ol.style.Fill({color: "rgba(153,52,4,1.0)"})
+[5.000000, 8.000000, [ new ol.style.Style({
+         fill: new ol.style.Fill({color: "rgba(209 ,57,10,1.0)"})
+    })]],
+[8.000000, 15.000000, [ new ol.style.Style({
+         fill: new ol.style.Fill({color: "rgba(143,52,4,1.0)"})
     })]]];
 var styleCache_CommunesetArrondissements={}
 var style_CommunesetArrondissements = function(feature, resolution){

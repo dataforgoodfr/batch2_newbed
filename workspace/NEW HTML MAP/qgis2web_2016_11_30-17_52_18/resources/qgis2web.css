@@ -12,13 +12,23 @@ th, td {
 }
 
 #map {
-    width: 65%;
+    width: 50%;
     height: 70%;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#legend{
+
+    position: fixed;
+    left: 200px;
+    top:790px;   
+    width : 300px;
+    height : 300px ;
+     
+    }
+
 
 .ol-popup {
     display: none;

@@ -94,7 +94,7 @@ var featureOverlay = new ol.layer.Vector({
     map: map,
     source: new ol.source.Vector({
         features: collection,
-        useSpatialIndex: true // optional, might improve performance
+        useSpatialIndex: false // optional, might improve performance
     }),
     style: [new ol.style.Style({
         stroke: new ol.style.Stroke({
@@ -231,7 +231,7 @@ var onPointerMove = function(evt) {
 };
 
 var onSingleClick = function(evt) {
-    if (doHover) {
+    if (!doHover| layer.getZIndex()<100) {
         return;
     }
     var pixel = map.getEventPixel(evt.originalEvent);
@@ -252,7 +252,7 @@ var onSingleClick = function(evt) {
         if (doPopup) {
             popupText = '<table>';
             for (var i=0; i<currentFeatureKeys.length; i++) {
-                if (currentFeatureKeys[i] != 'geometry') {
+                if (currentFeatureKeys[i] != 'geometry'&& tags_popups.indexOf(layer.get('fieldAliases')[currentFeatureKeys[i]] )>-1) {
                     popupField = '';
                     if (layer.get('fieldLabels')[currentFeatureKeys[i]] == "inline label") {
                         popupField += '<th>' + layer.get('fieldAliases')[currentFeatureKeys[i]] + ':</th><td>';
