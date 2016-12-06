@@ -13,7 +13,7 @@ var style_Hotels_Low_rating2 = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0,
                   offset: [0, 0],
-                  src: "styles/base.svg"
+                  src: "styles/base2.svg"
             })
     })];
     if ("" !== null) {

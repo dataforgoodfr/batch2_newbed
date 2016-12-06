@@ -13,7 +13,7 @@ var style_Hotelschambreaveckitchenette = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0,
                   offset: [0, 0],
-                  src: "styles/orange.svg"
+                  src: "styles/orange2.svg"
             })
     })];
     if ("" !== null) {

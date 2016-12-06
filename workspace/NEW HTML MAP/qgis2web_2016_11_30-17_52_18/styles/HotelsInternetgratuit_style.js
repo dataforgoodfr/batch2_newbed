@@ -13,7 +13,7 @@ var style_HotelsInternetgratuit = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0,
                   offset: [0, 0],
-                  src: "styles/foret.svg"
+                  src: "styles/foret2.svg"
             })
     })];
     if ("" !== null) {

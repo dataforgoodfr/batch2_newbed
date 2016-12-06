@@ -13,7 +13,7 @@ var style_HotelsaccessiblesPMR = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0,
                   offset: [0, 0],
-                  src: "styles/ciel.svg"
+                  src: "styles/ciel2.svg"
             })
     })];
     if ("" !== null) {

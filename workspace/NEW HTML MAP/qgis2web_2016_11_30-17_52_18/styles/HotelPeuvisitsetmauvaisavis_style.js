@@ -13,7 +13,7 @@ var style_HotelPeuvisitsetmauvaisavis = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0,
                   offset: [0, 0],
-                  src: "styles/citron.svg"
+                  src: "styles/citron2.svg"
             })
     })];
     if ("" !== null) {

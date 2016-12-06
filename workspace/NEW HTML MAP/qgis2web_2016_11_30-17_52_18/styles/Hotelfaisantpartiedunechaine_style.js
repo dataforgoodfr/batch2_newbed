@@ -13,7 +13,7 @@ var style_Hotelfaisantpartiedunechaine = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0.0,
                   offset: [0, 0],
-                  src: "styles/terre.svg"
+                  src: "styles/terre2.svg"
             })
     })];
     if ("" !== null) {

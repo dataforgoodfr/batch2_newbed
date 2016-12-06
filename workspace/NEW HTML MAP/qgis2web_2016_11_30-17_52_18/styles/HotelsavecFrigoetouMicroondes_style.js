@@ -13,7 +13,7 @@ var style_HotelsavecFrigoetouMicroondes = function(feature, resolution){
                   anchorYUnits: "fraction",
                   rotation: 0,
                   offset: [0, 0],
-                  src: "styles/violette.svg"
+                  src: "styles/violette2.svg"
             })
     })];
     if ("" !== null) {

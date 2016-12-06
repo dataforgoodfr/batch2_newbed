@@ -37,8 +37,8 @@
    id="namedview41"
    showgrid="false"
    inkscape:zoom="4.3527528"
-   inkscape:cx="118.78005"
-   inkscape:cy="153.7122"
+   inkscape:cx="107.10927"
+   inkscape:cy="172.09137"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
@@ -104,19 +104,8 @@
    id="g39">
 </g>
 <path
-   transform="matrix(1,0,0,-1,-6.7357039,171.19932)"
-   d="M 85.319017,131.34638 39.62485,52.201768 l 91.38833,-2e-6 z"
-   inkscape:randomized="0"
-   inkscape:rounded="0"
-   inkscape:flatsided="true"
-   sodipodi:arg2="2.6179939"
-   sodipodi:arg1="1.5707963"
-   sodipodi:r2="26.381538"
-   sodipodi:r1="52.763077"
-   sodipodi:cy="78.583305"
-   sodipodi:cx="85.319016"
-   sodipodi:sides="3"
-   id="path3814"
-   style="fill:#2a9f39;fill-opacity:1;stroke:#ffffff;stroke-width:0.99999994000000003;stroke-linejoin:round;stroke-miterlimit:4.30000019000000040;stroke-opacity:1;stroke-dasharray:none"
-   sodipodi:type="star"
-   inkscape:transform-center-y="-13.190769" /></svg>
+   sodipodi:nodetypes="cccc"
+   style="fill:#814c00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.47511309"
+   d="m 123.59995,119.05332 87.9903,0 -44.5695,75.8141 z"
+   id="path3915"
+   inkscape:connector-curvature="0" /></svg>
