@@ -33,7 +33,7 @@ var lyr_Hotels_Low_rating2 = new ol.layer.Vector({
                 source:jsonSource_Hotels_Low_rating2, 
                 maxResolution:500,
                 style: style_Hotels_Low_rating2,
-                title: "Hotels Low rating2"
+                title: "Hotels"
             });
 
 var format_HotelsInternetgratuit = new ol.format.GeoJSON();
@@ -46,7 +46,7 @@ var lyr_HotelsInternetgratuit = new ol.layer.Vector({
                 source:jsonSource_HotelsInternetgratuit, 
                 maxResolution:500,
                 style: style_HotelsInternetgratuit,
-                title: "Hotels Internet gratuit"
+                title: "Internet gratuit"
             });
 
 //var format_HotelsInternetPayant = new ol.format.GeoJSON();
@@ -69,7 +69,7 @@ jsonSource_HotelsaccessiblesPMR.addFeatures(features_HotelsaccessiblesPMR);var l
                 source:jsonSource_HotelsaccessiblesPMR, 
                 maxResolution:500,
                 style: style_HotelsaccessiblesPMR,
-                title: "Hotels accessibles PMR"
+                title: "Accessible PMR"
             });var format_Hotelfaisantpartiedunechaine = new ol.format.GeoJSON();
 
 var features_Hotelfaisantpartiedunechaine = format_Hotelfaisantpartiedunechaine.readFeatures(geojson_Hotelfaisantpartiedunechaine, 
@@ -79,7 +79,8 @@ jsonSource_Hotelfaisantpartiedunechaine.addFeatures(features_Hotelfaisantpartied
                 source:jsonSource_Hotelfaisantpartiedunechaine,
                 maxResolution:500, 
                 style: style_Hotelfaisantpartiedunechaine,
-                title: "Hotel faisant partie d'une chaine"
+                title: "Fait partie d'une chaine",
+                preview: "./style/ciel.svg"
             });var format_HotelsavecFrigoetouMicroondes = new ol.format.GeoJSON();
 
 var features_HotelsavecFrigoetouMicroondes = format_HotelsavecFrigoetouMicroondes.readFeatures(geojson_HotelsavecFrigoetouMicroondes, 
@@ -89,7 +90,7 @@ jsonSource_HotelsavecFrigoetouMicroondes.addFeatures(features_HotelsavecFrigoeto
                 source:jsonSource_HotelsavecFrigoetouMicroondes,
                 maxResolution:500, 
                 style: style_HotelsavecFrigoetouMicroondes,
-                title: "Hotels avec Frigo et ou Micro-ondes"
+                title: "Frigo/Micro-ondes"
             });var format_Hotelschambreaveckitchenette = new ol.format.GeoJSON();
 
 var features_Hotelschambreaveckitchenette = format_Hotelschambreaveckitchenette.readFeatures(geojson_Hotelschambreaveckitchenette, 
@@ -99,7 +100,7 @@ jsonSource_Hotelschambreaveckitchenette.addFeatures(features_Hotelschambreavecki
                 source:jsonSource_Hotelschambreaveckitchenette,
                 maxResolution:500, 
                 style: style_Hotelschambreaveckitchenette,
-                title: "Hotels chambre avec kitchenette"
+                title: "Kitchenette"
             });var format_HotelPeuvisitsetmauvaisavis = new ol.format.GeoJSON();
 
 var features_HotelPeuvisitsetmauvaisavis = format_HotelPeuvisitsetmauvaisavis.readFeatures(geojson_HotelPeuvisitsetmauvaisavis, 
@@ -109,7 +110,7 @@ jsonSource_HotelPeuvisitsetmauvaisavis.addFeatures(features_HotelPeuvisitsetmauv
                 source:jsonSource_HotelPeuvisitsetmauvaisavis, 
                 maxResolution:500,
                 style: style_HotelPeuvisitsetmauvaisavis,
-                title: "Hotel Peu visités et mauvais avis"
+                title: "Mal notés et peu d'avis"
             });
 
 var format_Dpartement = new ol.format.GeoJSON();
@@ -141,12 +142,7 @@ var lyr_Regions = new ol.layer.Vector({
                
             });
 
-var extent = [0, 0, 1024, 968];
-var projection = new ol.proj.Projection({
-        code: 'xkcd-image',
-        units: 'pixels',
-        extent: extent
-      });
+
 
 
 lyr_CommunesetArrondissements.setZIndex(0);

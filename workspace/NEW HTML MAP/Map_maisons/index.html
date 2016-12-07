@@ -43,8 +43,8 @@
 
         <style>
         #map {
-            width: 50%;
-            height: 50%;
+            width: 60%;
+            height: 70%;
         }
         
         </style>
@@ -52,9 +52,11 @@
     </head>
     <body>
         <div id="map">
+        
             <div id="popup" class="ol-popup">
                 <a href="#" id="popup-closer" class="ol-popup-closer"></a>
             <div id="popup-content"></div>
+            <div id="legend_hotels"> <img src="./styles/Test_legende.svg" height="300" width="50"></img></div>
             </div>
         </div>
         
@@ -63,6 +65,10 @@
         <script src="./resources/qgis2web.js"></script>
         <script src="./resources/Autolinker.min.js"></script>
 <style>
+#legend_hotels{
+  position: absolute;
+      
+}
 .tooltip {
   position: relative;
   background: rgba(0, 0, 0, 0.5);

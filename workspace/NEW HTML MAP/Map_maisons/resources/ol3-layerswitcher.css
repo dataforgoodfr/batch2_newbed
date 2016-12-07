@@ -8,8 +8,8 @@
 
 .layer-switcher {
     position: fixed;
-    top: -3px;
-    right: -286px;
+    top: 0px;
+    right: -200px;
     text-align: left;
 }
 
@@ -23,7 +23,7 @@
     background-color: white;
     display: none;
     overflow-y: auto;
-    height: 750px;
+    height: 100%;
 }
 
 .layer-switcher.shown .panel {

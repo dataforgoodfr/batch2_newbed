@@ -37,10 +37,10 @@ th, td {
     padding: 15px;
     border-radius: 2px;
     border: 1px solid #cccccc;
-    left: -250px;
+    left: -25%;
     top:0px;   
-    height:717px;
-    width: 218px;
+    height:100%;
+    width: 20%;
     min-width: 150px;     
 }
 
